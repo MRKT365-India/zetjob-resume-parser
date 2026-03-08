@@ -4,6 +4,9 @@ import re
 from io import BytesIO
 from .schemas import PIPELINE_STEPS, RESUME_OUTPUT_SCHEMA
 from .llm import extract_fields_llm
+from .av import scan_file
+from .ocr import run_ocr
+from .config import config
 
 try:
     import fitz  # PyMuPDF
@@ -249,6 +252,27 @@ async def run_pipeline(payload: Dict[str, Any]) -> Dict[str, Any]:
     target_role = payload.get("target_role") or payload.get("targetRole")
 
     file_bytes = base64.b64decode(file_base64)
+
+    # --- Antivirus / file validation (runs before any text extraction) ---
+    av_result = scan_file(file_bytes, mime_type, file_name)
+    if av_result["verdict"] == "blocked":
+        return {
+            "steps": PIPELINE_STEPS,
+            "schema": RESUME_OUTPUT_SCHEMA,
+            "text": None,
+            "scores": {"readability": 0, "ats": 0, "match": 0},
+            "fields": {
+                "needsOcr": {"value": False, "confidence": 1.0, "ocr_status": "blocked"},
+                "antivirus": {
+                    "value": "blocked",
+                    "confidence": 1.0,
+                    "scan_status": "blocked",
+                    "note": av_result.get("reason"),
+                },
+            },
+            "error": f"File blocked by antivirus: {av_result.get('reason')}",
+        }
+
     text = _extract_text(file_bytes, mime_type, file_name)
 
     # Safety Check: Prompt Injection
@@ -285,12 +309,38 @@ async def run_pipeline(payload: Dict[str, Any]) -> Dict[str, Any]:
         "match": _score_match(text, target_role),
     }
 
+    # --- OCR: run when text extraction yields too little (scanned / image PDF) ---
     if not text or len(text) < 200:
-        fields["needsOcr"] = {"value": True, "confidence": 0.9, "ocr_status": "queued"}
+        ocr_text = ""
+        if config.ocr.provider != "stub":
+            ocr_text = run_ocr(file_bytes, mime_type, file_name)
+
+        if ocr_text and len(ocr_text) >= 200:
+            # Re-run extraction on OCR text
+            fields.update(_extract_fields(ocr_text))
+            llm_fields_ocr = extract_fields_llm(ocr_text, model_override)
+            if llm_fields_ocr:
+                for key, value in llm_fields_ocr.items():
+                    if isinstance(value, dict) and value.get("value"):
+                        fields[key] = value
+            scores = {
+                "readability": _score_readability(ocr_text),
+                "ats": _score_ats(ocr_text),
+                "match": _score_match(ocr_text, target_role),
+            }
+            fields["needsOcr"] = {"value": True, "confidence": 0.9, "ocr_status": "complete"}
+        else:
+            ocr_status = "failed" if config.ocr.provider != "stub" else "queued"
+            fields["needsOcr"] = {"value": True, "confidence": 0.9, "ocr_status": ocr_status}
     else:
         fields["needsOcr"] = {"value": False, "confidence": 0.9, "ocr_status": "not_required"}
 
-    fields["antivirus"] = {"value": "pending", "confidence": 0.5, "scan_status": "not_implemented", "note": "stub"}
+    fields["antivirus"] = {
+        "value": av_result["verdict"],
+        "confidence": 1.0,
+        "scan_status": av_result["verdict"],
+        "note": av_result.get("reason"),
+    }
 
     return {
         "steps": PIPELINE_STEPS,
