@@ -1,5 +1,6 @@
 from typing import Dict, Any, Optional, Tuple
 import base64
+import binascii
 import re
 from io import BytesIO
 from .schemas import PIPELINE_STEPS, RESUME_OUTPUT_SCHEMA
@@ -27,6 +28,8 @@ SECTION_HEADINGS = [
     "summary",
     "profile",
 ]
+
+MAX_FILE_BYTES = 5 * 1024 * 1024
 
 INJECTION_PATTERNS = [
     "ignore previous instructions",
@@ -248,7 +251,47 @@ async def run_pipeline(payload: Dict[str, Any]) -> Dict[str, Any]:
     mime_type = payload.get("mime_type") or payload.get("mimeType")
     target_role = payload.get("target_role") or payload.get("targetRole")
 
-    file_bytes = base64.b64decode(file_base64)
+    if not isinstance(file_base64, str) or not file_base64.strip():
+        return {
+            "steps": PIPELINE_STEPS,
+            "schema": RESUME_OUTPUT_SCHEMA,
+            "text": None,
+            "scores": {"readability": 0, "ats": 0, "match": 0},
+            "fields": {
+                "needsOcr": {"value": False, "confidence": 1.0, "ocr_status": "blocked"},
+                "antivirus": {"value": "failed", "confidence": 1.0, "scan_status": "blocked", "note": "Missing file payload"},
+            },
+            "error": "Missing file payload",
+        }
+
+    try:
+        file_bytes = base64.b64decode(file_base64, validate=True)
+    except (binascii.Error, ValueError):
+        return {
+            "steps": PIPELINE_STEPS,
+            "schema": RESUME_OUTPUT_SCHEMA,
+            "text": None,
+            "scores": {"readability": 0, "ats": 0, "match": 0},
+            "fields": {
+                "needsOcr": {"value": False, "confidence": 1.0, "ocr_status": "blocked"},
+                "antivirus": {"value": "failed", "confidence": 1.0, "scan_status": "blocked", "note": "Invalid base64 payload"},
+            },
+            "error": "Invalid base64 payload",
+        }
+
+    if len(file_bytes) > MAX_FILE_BYTES:
+        return {
+            "steps": PIPELINE_STEPS,
+            "schema": RESUME_OUTPUT_SCHEMA,
+            "text": None,
+            "scores": {"readability": 0, "ats": 0, "match": 0},
+            "fields": {
+                "needsOcr": {"value": False, "confidence": 1.0, "ocr_status": "blocked"},
+                "antivirus": {"value": "failed", "confidence": 1.0, "scan_status": "blocked", "note": "File exceeds 5MB limit"},
+            },
+            "error": "File exceeds 5MB limit",
+        }
+
     text = _extract_text(file_bytes, mime_type, file_name)
 
     # Safety Check: Prompt Injection

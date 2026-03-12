@@ -12,9 +12,13 @@ router = APIRouter(prefix="/svc/resume-parser")
 
 # in-memory store (stub)
 JOBS = {}
+MAX_FILE_BYTES = 5 * 1024 * 1024
+MAX_BASE64_LENGTH = ((MAX_FILE_BYTES + 2) // 3) * 4
 
 @router.post("/parse", response_model=ParseResponse)
 async def parse_resume(req: ParseRequest):
+    if req.file_base64 and len(req.file_base64) > MAX_BASE64_LENGTH:
+        raise HTTPException(status_code=413, detail="File exceeds 5MB limit")
     job_id = str(uuid4())
     received_at = datetime.now(timezone.utc).isoformat()
     telemetry = {
