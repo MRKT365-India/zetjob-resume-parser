@@ -84,8 +84,6 @@ async def analyze_v2(req: V2AnalyzeRequest):
     return result
 
 
-app.include_router(router)
-app.include_router(v2_router)
 
 
 from pydantic import BaseModel, Field as PydanticField
@@ -195,3 +193,7 @@ async def rewrite_v2(req: V2RewriteRequest):
             "step_durations": step_durations,
         },
     }
+
+
+app.include_router(router)
+app.include_router(v2_router)
