@@ -3,6 +3,37 @@ from .prompts import RECOMMENDATION_PROMPT
 from .types import Recommendation
 
 
+def _rerank_recommendations_by_score_gaps(recs: list[Recommendation], score) -> list[Recommendation]:
+    """Stabilize recommendation priority by tying it to weakest score dimensions."""
+    if not recs:
+        return recs
+
+    dims = getattr(score, "dimensions", {}) or {}
+
+    def _dim_score(dim: str) -> float:
+        d = dims.get(dim)
+        if d is None:
+            return 50.0
+        try:
+            return float(getattr(d, "score", 50.0))
+        except Exception:
+            return 50.0
+
+    # Lower score => higher urgency. Estimated impact breaks ties.
+    ranked = sorted(
+        recs,
+        key=lambda r: (
+            _dim_score(getattr(r, "dimension", "")),
+            -float(getattr(r, "estimated_score_impact", 0.0) or 0.0),
+            getattr(r, "title", ""),
+        ),
+    )
+
+    for i, rec in enumerate(ranked, start=1):
+        rec.priority = i
+    return ranked[:5]
+
+
 def _fallback_recommendations(score, signals: dict) -> list[Recommendation]:
     recs: list[Recommendation] = []
 
@@ -67,9 +98,7 @@ def _fallback_recommendations(score, signals: dict) -> list[Recommendation]:
             )
         )
 
-    for i, rec in enumerate(recs, start=1):
-        rec.priority = i
-    return recs[:5]
+    return _rerank_recommendations_by_score_gaps(recs, score)
 
 
 async def generate_recommendations(target_role: str, canonical, signals: dict, alignment, score, model: str | None = None) -> list[Recommendation]:
@@ -88,9 +117,7 @@ async def generate_recommendations(target_role: str, canonical, signals: dict, a
     if isinstance(llm, list):
         try:
             recs = [Recommendation.model_validate(x) for x in llm][:5]
-            for i, rec in enumerate(recs, start=1):
-                rec.priority = i
-            return recs
+            return _rerank_recommendations_by_score_gaps(recs, score)
         except Exception:
             pass
     return _fallback_recommendations(score, signals)

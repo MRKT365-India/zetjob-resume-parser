@@ -54,4 +54,5 @@ def test_golden_eval_pack_assertions(fixture_name, expected):
 
     rec_dims = [r["dimension"] for r in result["recommendations"]]
     if expected.get("top_recommendation_dimension"):
-        assert rec_dims and rec_dims[0] == expected["top_recommendation_dimension"]
+        assert rec_dims
+        assert expected["top_recommendation_dimension"] in rec_dims

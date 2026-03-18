@@ -1,0 +1,3551 @@
+{
+  "career_gap": {
+    "version": "2.0",
+    "resume_version_id": null,
+    "user_id": null,
+    "target_role": "Senior Backend Engineer",
+    "canonical": {
+      "summary": "Backend developer returning after planned caregiving break.",
+      "experience": [
+        {
+          "company": "CoreWave",
+          "title": "Software Engineer",
+          "start_date": "2018-01",
+          "end_date": "2020-01",
+          "is_current": false,
+          "date_ambiguous": false,
+          "location": null,
+          "bullets": [
+            "Built customer notification service and improved delivery success by 24%",
+            "Responsible for API maintenance and various support tasks"
+          ]
+        },
+        {
+          "company": "CoreWave",
+          "title": "Senior Software Engineer",
+          "start_date": "2022-08",
+          "end_date": null,
+          "is_current": true,
+          "date_ambiguous": false,
+          "location": null,
+          "bullets": [
+            "Led migration to async workers and reduced queue lag by 61%"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Regional Engineering College",
+          "degree": "B.Tech",
+          "field": "Computer Science",
+          "start_date": "2012-01",
+          "end_date": "2016-01",
+          "gpa": null
+        }
+      ],
+      "skills": [
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "projects": [],
+      "certifications": [],
+      "awards": [],
+      "metadata": {
+        "estimated_word_count": 67,
+        "section_order": [
+          "summary",
+          "experience",
+          "education",
+          "skills"
+        ],
+        "page_estimate": 1,
+        "bullet_count": 3,
+        "bullet_ratio": 0.04477611940298507,
+        "needs_ocr": false
+      }
+    },
+    "signals": {
+      "impact": [
+        {
+          "role_index": 0,
+          "bullet_index": 0,
+          "text": "Built customer notification service and improved delivery success by 24%",
+          "impact_type": "metric",
+          "quantification": "strong",
+          "star_score": 0.9,
+          "verbs": [
+            "Built",
+            "improved"
+          ],
+          "metrics": [
+            "24%"
+          ]
+        },
+        {
+          "role_index": 0,
+          "bullet_index": 1,
+          "text": "Responsible for API maintenance and various support tasks",
+          "impact_type": "duty",
+          "quantification": "none",
+          "star_score": 0.2,
+          "verbs": [
+            "Responsible"
+          ],
+          "metrics": []
+        },
+        {
+          "role_index": 1,
+          "bullet_index": 0,
+          "text": "Led migration to async workers and reduced queue lag by 61%",
+          "impact_type": "metric",
+          "quantification": "strong",
+          "star_score": 0.9,
+          "verbs": [
+            "Led",
+            "reduced"
+          ],
+          "metrics": [
+            "61%"
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "role_index": 0,
+          "company": "CoreWave",
+          "title": "Software Engineer",
+          "ownership_level": "led",
+          "scope": "cross-functional",
+          "evidence": [
+            "Built customer notification service"
+          ],
+          "passive_flags": []
+        },
+        {
+          "role_index": 1,
+          "company": "CoreWave",
+          "title": "Senior Software Engineer",
+          "ownership_level": "led",
+          "scope": "team",
+          "evidence": [
+            "Led migration to async workers"
+          ],
+          "passive_flags": []
+        }
+      ],
+      "skills": {
+        "hard_skills": [
+          {
+            "name": "Python",
+            "depth": "expert",
+            "last_used": "recent experience",
+            "context": "Built customer notification service; API maintenance; Led migration to async workers"
+          },
+          {
+            "name": "Django",
+            "depth": "proficient",
+            "last_used": "recent experience",
+            "context": "API maintenance; Built customer notification service"
+          },
+          {
+            "name": "PostgreSQL",
+            "depth": "proficient",
+            "last_used": "recent experience",
+            "context": "Built customer notification service"
+          },
+          {
+            "name": "Redis",
+            "depth": "expert",
+            "last_used": "recent experience",
+            "context": "Led migration to async workers and reduced queue lag by 61%"
+          }
+        ],
+        "soft_skills": [
+          {
+            "name": "Leadership",
+            "evidence": "Led migration to async workers"
+          },
+          {
+            "name": "Problem Solving",
+            "evidence": "improved delivery success by 24%"
+          },
+          {
+            "name": "Optimization",
+            "evidence": "reduced queue lag by 61%"
+          },
+          {
+            "name": "Accountability",
+            "evidence": "Responsible for API maintenance and various support tasks"
+          }
+        ],
+        "certifications": []
+      },
+      "ats": {
+        "overall_pass": false,
+        "pass_rate": 0.63,
+        "checks": [
+          {
+            "rule": "core_sections",
+            "passed": true,
+            "detail": "All core sections (summary, experience, education, skills) are present."
+          },
+          {
+            "rule": "date_consistency",
+            "passed": false,
+            "detail": "Missing date information for experience/education entries, cannot assess consistency."
+          },
+          {
+            "rule": "contact_email",
+            "passed": true,
+            "detail": "Email address found."
+          },
+          {
+            "rule": "contact_phone",
+            "passed": true,
+            "detail": "Phone number found."
+          },
+          {
+            "rule": "page_count",
+            "passed": true,
+            "detail": "Resume is 1 page, which is optimal for most roles."
+          },
+          {
+            "rule": "bullet_point_usage",
+            "passed": false,
+            "detail": "Bullet point usage is low (ratio 0.04), consider adding more action-oriented bullet points."
+          },
+          {
+            "rule": "ocr_readability",
+            "passed": true,
+            "detail": "Resume is machine-readable (OCR not needed)."
+          },
+          {
+            "rule": "word_count",
+            "passed": false,
+            "detail": "Resume word count (67) is extremely low, suggesting insufficient detail for a typical resume."
+          }
+        ]
+      },
+      "red_flags": {
+        "flags": [
+          {
+            "type": "employment_gap",
+            "severity": "high",
+            "detail": "2-year, 7-month gap between roles (2020-01 to 2022-08)",
+            "location": "experience"
+          },
+          {
+            "type": "generic_language",
+            "severity": "low",
+            "detail": "Duty-based phrasing without outcomes: 'Responsible for API maintenance and various support tasks'",
+            "location": "experience[0].bullets[1]"
+          }
+        ]
+      }
+    },
+    "alignment": {
+      "fit_score": 85.0,
+      "strength_alignment": [
+        "Demonstrated senior-level technical leadership and project ownership (e.g., leading migration to async workers)",
+        "Quantifiable impact on system performance and reliability (e.g., 61% queue lag reduction, 24% delivery success improvement)",
+        "Strong proficiency in core backend technologies including Python, Redis, Django, and PostgreSQL"
+      ],
+      "gaps": [
+        {
+          "area": "Resume Detail",
+          "severity": "medium",
+          "detail": "Resume is extremely concise with low word count and bullet usage, potentially underselling the full scope of senior-level experience and contributions."
+        },
+        {
+          "area": "Broader Senior Scope",
+          "severity": "low",
+          "detail": "While leadership is evident, the resume lacks explicit detail on architectural contributions, complex system design, or mentorship responsibilities typically expected of a Senior Backend Engineer, likely due to brevity."
+        }
+      ],
+      "narrative_assessment": "This candidate presents as a strong Senior Backend Engineer with clear evidence of technical leadership, significant quantifiable impact on backend systems, and a solid technical foundation. The caregiving break is proactively addressed. The primary area for improvement is the resume's brevity, which may necessitate deeper conversation to fully uncover the breadth of their senior-level capabilities.",
+      "market_notes": "The candidate's ability to demonstrate leadership and quantifiable impact, coupled with a transparent explanation for the career break, aligns well with current market demands. However, the highly concise resume might be a disadvantage in initial screenings where more detailed evidence of senior-level responsibilities (e.g., architecture, mentorship) is often sought."
+    },
+    "score": {
+      "overall": 68.28,
+      "confidence": 100.0,
+      "dimensions": {
+        "impact_quality": {
+          "score": 53.33333333333333,
+          "weight": 0.25,
+          "weighted_contribution": 13.33,
+          "rationale": "Based on quantified outcomes and STAR quality"
+        },
+        "ownership": {
+          "score": 90.0,
+          "weight": 0.15,
+          "weighted_contribution": 13.5,
+          "rationale": "Leadership and ownership explicitness"
+        },
+        "skills_relevance": {
+          "score": 61.25,
+          "weight": 0.2,
+          "weighted_contribution": 12.25,
+          "rationale": "Skill depth and target-role keyword relevance"
+        },
+        "ats_compliance": {
+          "score": 63.0,
+          "weight": 0.15,
+          "weighted_contribution": 9.45,
+          "rationale": "ATS checks pass rate"
+        },
+        "red_flag_penalty": {
+          "score": 76.0,
+          "weight": 0.15,
+          "weighted_contribution": 11.4,
+          "rationale": "Penalty for risk signals"
+        },
+        "narrative_coherence": {
+          "score": 83.5,
+          "weight": 0.1,
+          "weighted_contribution": 8.35,
+          "rationale": "Summary, progression, and role alignment coherence"
+        }
+      },
+      "tier": "competitive"
+    },
+    "recommendations": [
+      {
+        "id": "rec_3",
+        "priority": 1,
+        "title": "Rewrite duty statement into an outcome-focused bullet",
+        "dimension": "impact_quality",
+        "effort": "low",
+        "estimated_score_impact": 8.0,
+        "description": "Transform the duty-based statement into an action-oriented bullet highlighting specific achievements and their impact, using quantifiable metrics where possible.",
+        "before": "Responsible for API maintenance and various support tasks",
+        "after": "Streamlined API maintenance processes, reducing critical incident response time by 15% and improving system stability for 5 key services.",
+        "location": "experience[0].bullets[1]"
+      },
+      {
+        "id": "rec_4",
+        "priority": 2,
+        "title": "Elaborate on senior-level contributions like architecture, system design, and mentorship",
+        "dimension": "skills_relevance",
+        "effort": "moderate",
+        "estimated_score_impact": 12.0,
+        "description": "To align better with a Senior Backend Engineer role, add specific examples of your involvement in architectural decisions, complex system design, and any mentorship or leadership in technical best practices. This will demonstrate the breadth of your senior capabilities beyond individual project execution.",
+        "before": null,
+        "after": null,
+        "location": "experience section, potentially summary"
+      },
+      {
+        "id": "rec_2",
+        "priority": 3,
+        "title": "Expand resume content with more detailed, action-oriented bullet points",
+        "dimension": "ats_compliance",
+        "effort": "high",
+        "estimated_score_impact": 15.0,
+        "description": "The resume's extremely low word count (67 words) and minimal bullet point usage (ratio 0.04) significantly undersell your senior-level experience. Expand existing points and add new ones to fully detail responsibilities, technical challenges, and contributions, especially for a Senior Backend Engineer role. This will improve ATS pass rates and demonstrate greater impact.",
+        "before": null,
+        "after": null,
+        "location": "entire resume, especially experience section"
+      },
+      {
+        "id": "rec_1",
+        "priority": 4,
+        "title": "Add missing date information to experience and education entries",
+        "dimension": "ats_compliance",
+        "effort": "low",
+        "estimated_score_impact": 10.0,
+        "description": "The resume is missing date information for experience and/or education entries, which is crucial for ATS parsing and chronological understanding. This is a critical ATS compliance failure.",
+        "before": null,
+        "after": null,
+        "location": "experience/education sections"
+      },
+      {
+        "id": "rec_5",
+        "priority": 5,
+        "title": "Explicitly address the employment gap on the resume",
+        "dimension": "red_flag_penalty",
+        "effort": "low",
+        "estimated_score_impact": 7.0,
+        "description": "While the narrative mentions the caregiving break is addressed, ensure this is clearly stated on the resume itself (e.g., in the summary, a dedicated section, or within the experience timeline) to proactively manage recruiter concerns and mitigate the red flag.",
+        "before": null,
+        "after": null,
+        "location": "summary or experience section"
+      }
+    ],
+    "interview_prep": [
+      {
+        "question": "Your resume shows a significant career gap from January 2020 to August 2022. Could you please walk us through what you were doing during that time and how you stayed current with backend technologies?",
+        "source": "employment_gap",
+        "severity": "high",
+        "likelihood": "high",
+        "coaching_note": "Be transparent and concise about the reason for the gap (e.g., caregiving, personal development). Emphasize any relevant learning, projects, or skills maintained/developed during the gap. Frame it positively as a period of growth or necessary pause, demonstrating continued engagement with your field.",
+        "suggested_framework": "STAR (Situation, Task, Action, Result) for any projects or learning initiatives. Be ready to discuss specific technologies or trends you explored.",
+        "do_not": "Be defensive, vague, or overly apologetic. Avoid dwelling on personal details beyond what's necessary for context. Don't imply a lack of interest in career progression or technical development."
+      },
+      {
+        "question": "Your resume is quite concise, and while we see strong leadership, we'd like to understand the full breadth of your senior-level experience. Can you elaborate on a complex system you designed or significantly architected, and what your specific contributions were beyond just leading a team?",
+        "source": "alignment_gap",
+        "severity": "medium",
+        "likelihood": "high",
+        "coaching_note": "This is an opportunity to showcase depth. Pick a project that demonstrates architectural thinking, handling complexity, making trade-offs, and influencing technical direction. Clearly articulate *your* role in the design process, not just the team's.",
+        "suggested_framework": "STAR, emphasizing the 'Situation' (complexity, constraints), 'Task' (design challenge), 'Action' (your specific architectural decisions, rationale, alternatives considered), and 'Result' (impact, scalability, maintainability).",
+        "do_not": "Just list technologies without context. Avoid generic statements about 'being involved.' Don't undersell your individual contributions by focusing solely on team efforts without detailing your specific impact."
+      },
+      {
+        "question": "As a Senior Engineer, mentorship and contributing to team development are often key responsibilities. Can you share a specific example of how you've mentored junior engineers or actively contributed to the technical growth of your team?",
+        "source": "alignment_gap",
+        "severity": "medium",
+        "likelihood": "medium",
+        "coaching_note": "Provide a specific example. Discuss how you identified a need, what actions you took (e.g., code reviews with detailed feedback, pair programming, knowledge sharing sessions, documentation, onboarding), and the positive outcome for the mentee or team.",
+        "suggested_framework": "STAR. Focus on the impact of your mentorship and how it improved team capabilities or individual growth.",
+        "do_not": "Say you haven't done it. Avoid generic statements like 'I'm always willing to help.' Don't just talk about code reviews without explaining the developmental aspect and the impact on the mentee."
+      },
+      {
+        "question": "In your previous role, you mentioned being 'responsible for API maintenance and various support tasks.' Can you give us a specific example of a challenging API maintenance issue or a support task you personally owned, detailing the problem, your approach, and the outcome?",
+        "source": "generic_language",
+        "severity": "low",
+        "likelihood": "medium",
+        "coaching_note": "This is a chance to turn a generic statement into a specific, outcome-driven story. Focus on a problem you personally solved or significantly contributed to. Quantify impact if possible, and highlight your problem-solving process.",
+        "suggested_framework": "STAR. Emphasize 'Action' (your specific steps, technical decisions, and troubleshooting) and 'Result' (what was achieved, how it improved the system or user experience).",
+        "do_not": "Reiterate the generic statement. Avoid vague descriptions of the problem or solution. Don't attribute success solely to the team without detailing your specific part and ownership."
+      }
+    ],
+    "telemetry": {
+      "request_id": "11750972-cdd9-4692-a84c-6df9c65b0a67",
+      "pipeline_version": "2.0",
+      "total_duration_ms": 60984,
+      "step_durations": {
+        "ingest_extract_text": 0,
+        "safety_check": 0,
+        "canonicalize": 6973,
+        "extractors_parallel": 15247,
+        "alignment": 12249,
+        "scoring": 0,
+        "recommendations": 13293,
+        "interview_prep": 13221
+      },
+      "models_used": {
+        "canonicalizer": "gemini-2.5-flash",
+        "impact": "gemini-2.5-flash",
+        "ownership": "gemini-2.5-flash",
+        "skills": "gemini-2.5-flash",
+        "ats": "gemini-2.5-flash",
+        "red_flags": "gemini-2.5-flash",
+        "alignment": "gemini-2.5-flash",
+        "recommendations": "gemini-2.5-flash",
+        "interview_prep": "gemini-2.5-flash"
+      }
+    }
+  },
+  "job_hopping": {
+    "version": "2.0",
+    "resume_version_id": null,
+    "user_id": null,
+    "target_role": "Senior Backend Engineer",
+    "canonical": {
+      "summary": "Backend engineer with broad startup exposure.",
+      "experience": [
+        {
+          "company": "Startup A",
+          "title": "Software Engineer",
+          "start_date": "2021-01",
+          "end_date": "2021-08",
+          "is_current": false,
+          "date_ambiguous": false,
+          "location": null,
+          "bullets": [
+            "Responsible for various microservice tasks"
+          ]
+        },
+        {
+          "company": "Startup B",
+          "title": "Software Engineer",
+          "start_date": "2021-09",
+          "end_date": "2022-04",
+          "is_current": false,
+          "date_ambiguous": false,
+          "location": null,
+          "bullets": [
+            "Worked on API integrations and support"
+          ]
+        },
+        {
+          "company": "Startup C",
+          "title": "Software Engineer",
+          "start_date": "2022-05",
+          "end_date": "2023-01",
+          "is_current": false,
+          "date_ambiguous": false,
+          "location": null,
+          "bullets": [
+            "Assisted with platform migration"
+          ]
+        },
+        {
+          "company": "Startup D",
+          "title": "Software Engineer",
+          "start_date": "2023-02",
+          "end_date": "2023-11",
+          "is_current": false,
+          "date_ambiguous": false,
+          "location": null,
+          "bullets": [
+            "Built internal tools and improved debugging speed by 10%"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Tech College",
+          "degree": "BCA",
+          "field": null,
+          "start_date": "2017-01",
+          "end_date": "2020-01",
+          "gpa": null
+        }
+      ],
+      "skills": [
+        "Python",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "projects": [],
+      "certifications": [],
+      "awards": [],
+      "metadata": {
+        "estimated_word_count": 73,
+        "section_order": [
+          "summary",
+          "experience",
+          "education",
+          "skills"
+        ],
+        "page_estimate": 1,
+        "bullet_count": 4,
+        "bullet_ratio": 0.0547945205479452,
+        "needs_ocr": false
+      }
+    },
+    "signals": {
+      "impact": [
+        {
+          "role_index": 0,
+          "bullet_index": 0,
+          "text": "Responsible for various microservice tasks",
+          "impact_type": "duty",
+          "quantification": "none",
+          "star_score": 0.25,
+          "verbs": [
+            "Responsible"
+          ],
+          "metrics": []
+        },
+        {
+          "role_index": 1,
+          "bullet_index": 0,
+          "text": "Worked on API integrations and support",
+          "impact_type": "scope",
+          "quantification": "none",
+          "star_score": 0.45,
+          "verbs": [
+            "Worked"
+          ],
+          "metrics": []
+        },
+        {
+          "role_index": 2,
+          "bullet_index": 0,
+          "text": "Assisted with platform migration",
+          "impact_type": "scope",
+          "quantification": "none",
+          "star_score": 0.5,
+          "verbs": [
+            "Assisted"
+          ],
+          "metrics": []
+        },
+        {
+          "role_index": 3,
+          "bullet_index": 0,
+          "text": "Built internal tools and improved debugging speed by 10%",
+          "impact_type": "metric",
+          "quantification": "strong",
+          "star_score": 0.9,
+          "verbs": [
+            "Built",
+            "improved"
+          ],
+          "metrics": [
+            "10%"
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "role_index": 0,
+          "company": "Startup A",
+          "title": "Software Engineer",
+          "ownership_level": "contributed",
+          "scope": "individual",
+          "evidence": [
+            "Responsible for various microservice tasks"
+          ],
+          "passive_flags": [
+            "responsible for"
+          ]
+        },
+        {
+          "role_index": 1,
+          "company": "Startup B",
+          "title": "Software Engineer",
+          "ownership_level": "participated",
+          "scope": "individual",
+          "evidence": [
+            "Worked on API integrations and support"
+          ],
+          "passive_flags": [
+            "worked on"
+          ]
+        },
+        {
+          "role_index": 2,
+          "company": "Startup C",
+          "title": "Software Engineer",
+          "ownership_level": "participated",
+          "scope": "individual",
+          "evidence": [
+            "Assisted with platform migration"
+          ],
+          "passive_flags": [
+            "assisted with"
+          ]
+        },
+        {
+          "role_index": 3,
+          "company": "Startup D",
+          "title": "Software Engineer",
+          "ownership_level": "contributed",
+          "scope": "team",
+          "evidence": [
+            "Built internal tools and improved debugging speed by 10%"
+          ],
+          "passive_flags": []
+        }
+      ],
+      "skills": {
+        "hard_skills": [
+          {
+            "name": "Python",
+            "depth": "proficient",
+            "last_used": "",
+            "context": "Built internal tools"
+          },
+          {
+            "name": "Node.js",
+            "depth": "familiar",
+            "last_used": "",
+            "context": null
+          },
+          {
+            "name": "PostgreSQL",
+            "depth": "familiar",
+            "last_used": "",
+            "context": null
+          },
+          {
+            "name": "Microservices",
+            "depth": "proficient",
+            "last_used": "",
+            "context": "Responsible for various microservice tasks"
+          },
+          {
+            "name": "API Integration",
+            "depth": "proficient",
+            "last_used": "",
+            "context": "Worked on API integrations"
+          },
+          {
+            "name": "Debugging",
+            "depth": "proficient",
+            "last_used": "",
+            "context": "improved debugging speed by 10%"
+          },
+          {
+            "name": "Tool Development",
+            "depth": "proficient",
+            "last_used": "",
+            "context": "Built internal tools"
+          }
+        ],
+        "soft_skills": [
+          {
+            "name": "Problem Solving",
+            "evidence": "improved debugging speed by 10%"
+          },
+          {
+            "name": "Efficiency Improvement",
+            "evidence": "improved debugging speed by 10%"
+          },
+          {
+            "name": "Collaboration",
+            "evidence": "Assisted with platform migration"
+          },
+          {
+            "name": "Responsibility",
+            "evidence": "Responsible for various microservice tasks"
+          }
+        ],
+        "certifications": []
+      },
+      "ats": {
+        "overall_pass": false,
+        "pass_rate": 0.6,
+        "checks": [
+          {
+            "rule": "core_sections",
+            "passed": true,
+            "detail": "All standard core sections (summary, experience, education, skills) are present."
+          },
+          {
+            "rule": "contact_email",
+            "passed": true,
+            "detail": "Email address found."
+          },
+          {
+            "rule": "contact_phone",
+            "passed": true,
+            "detail": "Phone number found."
+          },
+          {
+            "rule": "resume_length",
+            "passed": false,
+            "detail": "Resume is critically short with only 73 words. Expected at least 300 words for a complete resume."
+          },
+          {
+            "rule": "bullet_point_usage",
+            "passed": false,
+            "detail": "Low number of bullet points (4) suggests insufficient detail in descriptions."
+          }
+        ]
+      },
+      "red_flags": {
+        "flags": [
+          {
+            "type": "job_hopping",
+            "severity": "high",
+            "detail": "Four roles in less than three years (2021-01 to 2023-11), with each role lasting 8-10 months.",
+            "location": "experience"
+          },
+          {
+            "type": "generic_language",
+            "severity": "low",
+            "detail": "Duty-based phrasing without outcomes: 'Responsible for various microservice tasks'",
+            "location": "experience[0].bullets[0]"
+          },
+          {
+            "type": "generic_language",
+            "severity": "low",
+            "detail": "Duty-based phrasing without outcomes: 'Worked on API integrations and support'",
+            "location": "experience[1].bullets[0]"
+          },
+          {
+            "type": "generic_language",
+            "severity": "low",
+            "detail": "Duty-based phrasing without outcomes: 'Assisted with platform migration'",
+            "location": "experience[2].bullets[0]"
+          }
+        ]
+      }
+    },
+    "alignment": {
+      "fit_score": 28.0,
+      "strength_alignment": [
+        "Exposure to core backend technologies (Python, Node.js, PostgreSQL, Microservices)",
+        "Demonstrated one quantifiable outcome (improved debugging speed by 10%)"
+      ],
+      "gaps": [
+        {
+          "area": "seniority & experience duration",
+          "severity": "high",
+          "detail": "Approximately 2 years 10 months of experience is insufficient for a Senior Backend Engineer role, which typically requires 4-6+ years."
+        },
+        {
+          "area": "impact & ownership",
+          "severity": "high",
+          "detail": "Limited evidence of high-impact projects, system design, or leadership. Most contributions are described in a junior capacity ('responsible for', 'worked on', 'assisted with')."
+        },
+        {
+          "area": "job stability",
+          "severity": "high",
+          "detail": "High job hopping with four roles in less than three years, each lasting 8-10 months, raises concerns about long-term commitment."
+        },
+        {
+          "area": "resume detail",
+          "severity": "medium",
+          "detail": "The resume is critically short (73 words) and lacks specific project details, challenges, and outcomes, hindering a thorough assessment."
+        }
+      ],
+      "narrative_assessment": "The candidate possesses foundational backend skills but lacks the depth of experience, demonstrated impact, and ownership typically required for a Senior Backend Engineer role. The short tenure at multiple startups and the brevity of the resume further hinder a positive evaluation for a senior position.",
+      "market_notes": "This candidate would likely be a better fit for a Junior or Mid-level Backend Engineer role where the expectations for experience, leadership, and system design are lower. The job hopping pattern could be a significant concern for many employers."
+    },
+    "score": {
+      "overall": 45.29,
+      "confidence": 100.0,
+      "dimensions": {
+        "impact_quality": {
+          "score": 22.75,
+          "weight": 0.25,
+          "weighted_contribution": 5.69,
+          "rationale": "Based on quantified outcomes and STAR quality"
+        },
+        "ownership": {
+          "score": 30.0,
+          "weight": 0.15,
+          "weighted_contribution": 4.5,
+          "rationale": "Leadership and ownership explicitness"
+        },
+        "skills_relevance": {
+          "score": 47.5,
+          "weight": 0.2,
+          "weighted_contribution": 9.5,
+          "rationale": "Skill depth and target-role keyword relevance"
+        },
+        "ats_compliance": {
+          "score": 60.0,
+          "weight": 0.15,
+          "weighted_contribution": 9.0,
+          "rationale": "ATS checks pass rate"
+        },
+        "red_flag_penalty": {
+          "score": 68.0,
+          "weight": 0.15,
+          "weighted_contribution": 10.2,
+          "rationale": "Penalty for risk signals"
+        },
+        "narrative_coherence": {
+          "score": 64.0,
+          "weight": 0.1,
+          "weighted_contribution": 6.4,
+          "rationale": "Summary, progression, and role alignment coherence"
+        }
+      },
+      "tier": "needs-work"
+    },
+    "recommendations": [
+      {
+        "id": "rewrite_duty_to_outcome",
+        "priority": 1,
+        "title": "Transform duty statements into quantifiable outcome bullets",
+        "dimension": "impact_quality",
+        "effort": "moderate",
+        "estimated_score_impact": 12.0,
+        "description": "Many bullets describe responsibilities rather than achievements. For each point, use strong action verbs and quantify your contributions with metrics (e.g., percentages, dollar amounts, time saved, number of users affected).",
+        "before": "Responsible for various microservice tasks",
+        "after": "Designed and implemented 3 critical microservices, improving system scalability by 20% and reducing latency by 15%.",
+        "location": ""
+      },
+      {
+        "id": "emphasize_ownership",
+        "priority": 2,
+        "title": "Emphasize ownership and leadership contributions",
+        "dimension": "ownership",
+        "effort": "moderate",
+        "estimated_score_impact": 10.0,
+        "description": "For a Senior role, explicitly state instances where you led projects, mentored junior engineers, made architectural decisions, or took full ownership of a feature/system. Avoid passive language like 'worked on' or 'assisted with'.",
+        "before": "Assisted with platform migration",
+        "after": "Led the migration of legacy platform components to a new microservice architecture, reducing operational costs by 10%.",
+        "location": ""
+      },
+      {
+        "id": "integrate_tech_context",
+        "priority": 3,
+        "title": "Integrate specific technologies and their application within experience",
+        "dimension": "skills_relevance",
+        "effort": "moderate",
+        "estimated_score_impact": 7.0,
+        "description": "While you list skills, demonstrate *how* you used them. Weave specific technologies (e.g., Python, Node.js, PostgreSQL, Docker, AWS) into your bullet points to show practical application and depth, rather than just listing them in a skills section.",
+        "before": "Worked on API integrations and support",
+        "after": "Developed and maintained RESTful APIs using Node.js and Express, integrating with third-party services and ensuring 99.9% uptime for critical business operations.",
+        "location": ""
+      },
+      {
+        "id": "expand_resume_content",
+        "priority": 4,
+        "title": "Expand resume content with detailed project descriptions",
+        "dimension": "ats_compliance",
+        "effort": "high",
+        "estimated_score_impact": 15.0,
+        "description": "Your resume is critically short (73 words) and lacks sufficient detail for a Senior role. Each experience entry should have 3-5 detailed bullet points describing projects, challenges, actions, and quantifiable outcomes. This will significantly improve ATS compliance and provide context for your skills and impact.",
+        "before": null,
+        "after": null,
+        "location": "overall_resume"
+      },
+      {
+        "id": "mitigate_job_hopping",
+        "priority": 5,
+        "title": "Address job stability concerns in a summary or cover letter",
+        "dimension": "red_flag_penalty",
+        "effort": "low",
+        "estimated_score_impact": 8.0,
+        "description": "Your resume shows frequent job changes. While this cannot be changed, consider adding a brief, positive explanation in your resume summary or cover letter, focusing on growth opportunities, startup acquisitions, or specific project completions that led to transitions. Avoid sounding defensive.",
+        "before": null,
+        "after": "Highly adaptable Senior Backend Engineer with 2+ years of experience across fast-paced startup environments, consistently delivering robust solutions and driving technical improvements.",
+        "location": ""
+      }
+    ],
+    "interview_prep": [
+      {
+        "question": "Your resume shows four roles in less than three years, with each lasting 8-10 months. Can you explain the reasons behind these frequent transitions and what you're looking for in terms of long-term stability?",
+        "source": "job_hopping / job_stability",
+        "severity": "high",
+        "likelihood": "high",
+        "coaching_note": "This is a critical question. Listen for self-awareness, clear and consistent reasoning, and a demonstrated commitment to finding a stable, long-term fit. Avoid candidates who blame all previous employers or lack a coherent narrative.",
+        "suggested_framework": "Be ready to explain the specific circumstances for each move, demonstrate learning from each experience, and articulate what makes *this* role/company a long-term fit.",
+        "do_not": "Accept vague answers, blame-shifting, or a lack of reflection on the pattern. Do not let them avoid addressing the pattern as a whole."
+      },
+      {
+        "question": "For a Senior Backend Engineer role, we expect candidates to have driven significant technical decisions, designed systems, or led projects. Can you describe a project where you took a lead role in architectural design or made a critical technical decision that had a major impact, detailing your specific contributions and the outcome?",
+        "source": "seniority & experience duration / impact & ownership",
+        "severity": "high",
+        "likelihood": "high",
+        "coaching_note": "Look for examples that go beyond individual coding tasks. Did they influence the direction, mentor others, or solve a complex system-level problem? Probe for the *why* behind their decisions and the *impact* on the business or team.",
+        "suggested_framework": "STAR (Situation, Task, Action, Result), focusing on the 'Action' and 'Result' at a senior, leadership, or design level. Emphasize the technical challenges and your decision-making process.",
+        "do_not": "Allow them to describe a team effort without clearly delineating their specific, senior-level contribution. Do not accept purely individual contributor tasks as evidence of senior impact."
+      },
+      {
+        "question": "In your role at Startup D, you mentioned 'Built internal tools and improved debugging speed by 10%.' Can you walk us through the specific problem you were solving, the tools you built, the technical challenges you faced, and *your* specific ownership and decisions in achieving that 10% improvement?",
+        "source": "ownership / generic_language / impact & ownership",
+        "severity": "high",
+        "likelihood": "high",
+        "coaching_note": "This is the candidate's strongest bullet point. Use it to gauge their depth of ownership and technical problem-solving. Push for details on *how* they achieved the improvement and their individual contribution versus team effort.",
+        "suggested_framework": "STAR, focusing on the technical details, the specific problem you identified, the design choices you made, and the measurable impact of *your* work.",
+        "do_not": "Let them give a high-level overview. Drill down into the technical specifics, the challenges encountered, and the decisions *they* made."
+      },
+      {
+        "question": "Your resume is quite concise and uses some general phrasing. To help us understand your capabilities better, could you elaborate on the most challenging backend project you've worked on, focusing on the technical complexities, the specific problems you solved, and the key outcomes you achieved?",
+        "source": "resume detail / generic_language / seniority & experience duration",
+        "severity": "medium",
+        "likelihood": "high",
+        "coaching_note": "This question gives the candidate an opportunity to provide missing context and demonstrate their technical depth. Listen for their ability to articulate complex problems and solutions clearly.",
+        "suggested_framework": "STAR, emphasizing the technical challenges, your problem-solving process, and the quantifiable or qualitative outcomes. Be prepared to dive deep into the architecture and specific technologies.",
+        "do_not": "Accept a superficial description. Push for technical details, trade-offs considered, and the impact of their work."
+      }
+    ],
+    "telemetry": {
+      "request_id": "b982199d-ac09-4a93-923f-d3dd8dd778ff",
+      "pipeline_version": "2.0",
+      "total_duration_ms": 63771,
+      "step_durations": {
+        "ingest_extract_text": 0,
+        "safety_check": 0,
+        "canonicalize": 8842,
+        "extractors_parallel": 11539,
+        "alignment": 13319,
+        "scoring": 0,
+        "recommendations": 13898,
+        "interview_prep": 16171
+      },
+      "models_used": {
+        "canonicalizer": "gemini-2.5-flash",
+        "impact": "gemini-2.5-flash",
+        "ownership": "gemini-2.5-flash",
+        "skills": "gemini-2.5-flash",
+        "ats": "gemini-2.5-flash",
+        "red_flags": "gemini-2.5-flash",
+        "alignment": "gemini-2.5-flash",
+        "recommendations": "gemini-2.5-flash",
+        "interview_prep": "gemini-2.5-flash"
+      }
+    }
+  },
+  "junior": {
+    "version": "2.0",
+    "resume_version_id": null,
+    "user_id": null,
+    "target_role": "Senior Backend Engineer",
+    "canonical": {
+      "summary": "Junior software engineer with internship and entry-level backend experience.",
+      "experience": [
+        {
+          "company": "ByteMint",
+          "title": "Software Engineer",
+          "start_date": "2024-01",
+          "end_date": null,
+          "is_current": true,
+          "date_ambiguous": false,
+          "location": null,
+          "bullets": [
+            "Built internal API endpoints in FastAPI used by 3 teams",
+            "Improved test coverage from 40% to 68%"
+          ]
+        },
+        {
+          "company": "Cloudseed",
+          "title": "Intern",
+          "start_date": "2023-06",
+          "end_date": "2023-12",
+          "is_current": false,
+          "date_ambiguous": false,
+          "location": null,
+          "bullets": [
+            "Assisted in building CI checks and fixing flaky tests"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Metro Institute",
+          "degree": "B.Tech",
+          "field": "Computer Science",
+          "start_date": "2019-01",
+          "end_date": "2023-01",
+          "gpa": null
+        }
+      ],
+      "skills": [
+        "Python",
+        "FastAPI",
+        "SQL",
+        "Git",
+        "Docker"
+      ],
+      "projects": [
+        {
+          "name": "College ERP Revamp",
+          "description": "Reduced report generation time by 20%",
+          "technologies": [],
+          "url": null
+        }
+      ],
+      "certifications": [],
+      "awards": [],
+      "metadata": {
+        "estimated_word_count": 83,
+        "section_order": [
+          "summary",
+          "experience",
+          "education",
+          "skills",
+          "projects"
+        ],
+        "page_estimate": 1,
+        "bullet_count": 3,
+        "bullet_ratio": 0.036,
+        "needs_ocr": false
+      }
+    },
+    "signals": {
+      "impact": [
+        {
+          "role_index": 0,
+          "bullet_index": 0,
+          "text": "Built internal API endpoints in FastAPI used by 3 teams",
+          "impact_type": "scope",
+          "quantification": "strong",
+          "star_score": 0.75,
+          "verbs": [
+            "Built",
+            "used"
+          ],
+          "metrics": [
+            "3 teams"
+          ]
+        },
+        {
+          "role_index": 0,
+          "bullet_index": 1,
+          "text": "Improved test coverage from 40% to 68%",
+          "impact_type": "metric",
+          "quantification": "strong",
+          "star_score": 0.9,
+          "verbs": [
+            "Improved"
+          ],
+          "metrics": [
+            "40%",
+            "68%"
+          ]
+        },
+        {
+          "role_index": 1,
+          "bullet_index": 0,
+          "text": "Assisted in building CI checks and fixing flaky tests",
+          "impact_type": "outcome",
+          "quantification": "none",
+          "star_score": 0.55,
+          "verbs": [
+            "Assisted",
+            "building",
+            "fixing"
+          ],
+          "metrics": []
+        }
+      ],
+      "ownership": [
+        {
+          "role_index": 0,
+          "company": "ByteMint",
+          "title": "Software Engineer",
+          "ownership_level": "contributed",
+          "scope": "cross-functional",
+          "evidence": [
+            "Built internal API endpoints in FastAPI used by 3 teams",
+            "Improved test coverage from 40% to 68%"
+          ],
+          "passive_flags": []
+        },
+        {
+          "role_index": 1,
+          "company": "Cloudseed",
+          "title": "Intern",
+          "ownership_level": "participated",
+          "scope": "team",
+          "evidence": [
+            "Assisted in building CI checks and fixing flaky tests"
+          ],
+          "passive_flags": [
+            "assisted in"
+          ]
+        }
+      ],
+      "skills": {
+        "hard_skills": [
+          {
+            "name": "Python",
+            "depth": "proficient",
+            "last_used": "",
+            "context": null
+          },
+          {
+            "name": "FastAPI",
+            "depth": "proficient",
+            "last_used": "",
+            "context": "Built internal API endpoints in FastAPI used by 3 teams"
+          },
+          {
+            "name": "SQL",
+            "depth": "familiar",
+            "last_used": "",
+            "context": null
+          },
+          {
+            "name": "Git",
+            "depth": "familiar",
+            "last_used": "",
+            "context": null
+          },
+          {
+            "name": "Docker",
+            "depth": "familiar",
+            "last_used": "",
+            "context": null
+          },
+          {
+            "name": "CI",
+            "depth": "familiar",
+            "last_used": "",
+            "context": "Assisted in building CI checks"
+          },
+          {
+            "name": "Testing",
+            "depth": "proficient",
+            "last_used": "",
+            "context": "Improved test coverage from 40% to 68%; fixing flaky tests"
+          }
+        ],
+        "soft_skills": [
+          {
+            "name": "Quality Focus",
+            "evidence": "Improved test coverage from 40% to 68%"
+          },
+          {
+            "name": "Problem Solving",
+            "evidence": "fixing flaky tests"
+          }
+        ],
+        "certifications": []
+      },
+      "ats": {
+        "overall_pass": false,
+        "pass_rate": 0.57,
+        "checks": [
+          {
+            "rule": "contact_completeness",
+            "passed": true,
+            "detail": "Email and phone contact information are complete."
+          },
+          {
+            "rule": "core_sections_present",
+            "passed": true,
+            "detail": "All core sections (Experience, Education, Skills) are present."
+          },
+          {
+            "rule": "standard_section_order",
+            "passed": true,
+            "detail": "Standard and ATS-friendly section order detected."
+          },
+          {
+            "rule": "resume_length_pages",
+            "passed": true,
+            "detail": "Resume is 1 page, which is ideal for ATS."
+          },
+          {
+            "rule": "resume_length_words",
+            "passed": false,
+            "detail": "Estimated word count (83) is significantly too low, suggesting incomplete content."
+          },
+          {
+            "rule": "bullet_point_ratio",
+            "passed": false,
+            "detail": "Bullet point ratio (0.036) is very low, indicating a lack of detailed, action-oriented descriptions."
+          },
+          {
+            "rule": "date_consistency",
+            "passed": false,
+            "detail": "Date consistency could not be evaluated due to missing date information in the input."
+          }
+        ]
+      },
+      "red_flags": {
+        "flags": []
+      }
+    },
+    "alignment": {
+      "fit_score": 38.0,
+      "strength_alignment": [
+        "Proficiency in core backend technologies (Python, FastAPI)",
+        "Demonstrated ability to build API endpoints and improve code quality",
+        "Quantifiable impact in current role (test coverage, API usage)"
+      ],
+      "gaps": [
+        {
+          "area": "Experience Level",
+          "severity": "high",
+          "detail": "Candidate is a junior engineer with only ~6 months of full-time backend experience and ~6 months of internship, significantly below the 3-5+ years typically required for a Senior role."
+        },
+        {
+          "area": "System Design & Architecture",
+          "severity": "high",
+          "detail": "No evidence of designing, scaling, or architecting complex backend systems."
+        },
+        {
+          "area": "Leadership & Mentorship",
+          "severity": "high",
+          "detail": "Lacks experience in leading projects, mentoring junior engineers, or driving technical initiatives independently."
+        }
+      ],
+      "narrative_assessment": "This candidate is a promising junior backend engineer with foundational skills in Python and FastAPI, and has demonstrated initial impact in API development and quality improvement. However, they are significantly under-qualified for a Senior Backend Engineer role, lacking the requisite years of experience, system design expertise, and leadership capabilities. They would be a much better fit for an entry-level or junior backend position.",
+      "market_notes": "The market standard for a Senior Backend Engineer typically demands 3-5+ years of dedicated experience, a strong portfolio of system design contributions, and proven leadership in technical projects. This candidate does not meet these established market expectations for a senior-level position."
+    },
+    "score": {
+      "overall": 56.05,
+      "confidence": 100.0,
+      "dimensions": {
+        "impact_quality": {
+          "score": 54.0,
+          "weight": 0.25,
+          "weighted_contribution": 13.5,
+          "rationale": "Based on quantified outcomes and STAR quality"
+        },
+        "ownership": {
+          "score": 30.0,
+          "weight": 0.15,
+          "weighted_contribution": 4.5,
+          "rationale": "Leadership and ownership explicitness"
+        },
+        "skills_relevance": {
+          "score": 42.5,
+          "weight": 0.2,
+          "weighted_contribution": 8.5,
+          "rationale": "Skill depth and target-role keyword relevance"
+        },
+        "ats_compliance": {
+          "score": 56.99999999999999,
+          "weight": 0.15,
+          "weighted_contribution": 8.55,
+          "rationale": "ATS checks pass rate"
+        },
+        "red_flag_penalty": {
+          "score": 100.0,
+          "weight": 0.15,
+          "weighted_contribution": 15.0,
+          "rationale": "Penalty for risk signals"
+        },
+        "narrative_coherence": {
+          "score": 60.0,
+          "weight": 0.1,
+          "weighted_contribution": 6.0,
+          "rationale": "Summary, progression, and role alignment coherence"
+        }
+      },
+      "tier": "needs-work"
+    },
+    "recommendations": [
+      {
+        "id": "rec_3",
+        "priority": 1,
+        "title": "Elevate ownership and leadership language in contributions",
+        "dimension": "ownership",
+        "effort": "moderate",
+        "estimated_score_impact": 8.0,
+        "description": "The 'ownership' score is low, and leadership is a key gap for a Senior role. Rephrase contributions to emphasize initiative, problem-solving, and cross-functional collaboration. Avoid passive language like 'Assisted in' and instead use strong action verbs that convey direct responsibility and impact.",
+        "before": "Assisted in building CI checks and fixing flaky tests",
+        "after": "Proactively identified and resolved critical flaky tests, stabilizing CI/CD pipelines and improving build reliability by X%.",
+        "location": "Experience Section"
+      },
+      {
+        "id": "rec_4",
+        "priority": 2,
+        "title": "Incorporate senior-level technical depth and system design concepts",
+        "dimension": "skills_relevance",
+        "effort": "high",
+        "estimated_score_impact": 9.0,
+        "description": "A Senior Backend Engineer role requires strong system design and architecture experience. While direct experience may be limited, integrate any exposure to design principles, architectural patterns (e.g., microservices, event-driven), scalability considerations, or relevant tools (e.g., Docker, Kubernetes, cloud platforms) into your experience bullets or a dedicated 'Technical Skills' section. Frame your API work in terms of scalability and robustness.",
+        "before": "Built internal API endpoints in FastAPI used by 3 teams",
+        "after": "Designed and implemented scalable internal API endpoints using FastAPI, supporting 3 cross-functional teams and ensuring high availability for critical business operations.",
+        "location": "Experience Section / Skills Section"
+      },
+      {
+        "id": "rec_5",
+        "priority": 3,
+        "title": "Enhance quantification and STAR quality for all achievements",
+        "dimension": "impact_quality",
+        "effort": "moderate",
+        "estimated_score_impact": 7.0,
+        "description": "While some quantification exists, consistently apply the STAR method (Situation, Task, Action, Result) to all bullets. Provide specific metrics, percentages, or business outcomes for every achievement to clearly demonstrate the value and impact of your work. This makes your contributions more tangible and impressive.",
+        "before": "Improved test coverage from 40% to 68%",
+        "after": "Spearheaded a code quality initiative, increasing backend test coverage from 40% to 68% within 2 months, which reduced critical bug incidents by 15% and improved developer confidence.",
+        "location": "Experience Section"
+      },
+      {
+        "id": "rec_2",
+        "priority": 4,
+        "title": "Significantly expand all experience bullets with detail",
+        "dimension": "ats_compliance",
+        "effort": "high",
+        "estimated_score_impact": 12.0,
+        "description": "Your resume's word count (83) and bullet point ratio are critically low, failing basic ATS checks. Each bullet point needs substantial expansion to provide more context, technical specifics, and process details. Aim for 3-5 detailed bullet points per role to demonstrate depth and meet ATS expectations.",
+        "before": null,
+        "after": null,
+        "location": "Experience Section"
+      },
+      {
+        "id": "rec_1",
+        "priority": 5,
+        "title": "Craft a compelling Professional Summary to bridge experience gap",
+        "dimension": "narrative_coherence",
+        "effort": "moderate",
+        "estimated_score_impact": 10.0,
+        "description": "Given the significant experience gap for a Senior role, a well-crafted professional summary is critical. It should highlight your strong foundational skills, rapid learning ability, and any instances of taking initiative, while framing your current contributions in a way that suggests readiness for greater responsibility. This sets the context for the rest of the resume.",
+        "before": null,
+        "after": "Highly motivated Backend Engineer with 6 months of full-time and 6 months of internship experience, specializing in Python and FastAPI. Proven ability to build scalable APIs and significantly improve code quality. Eager to leverage strong problem-solving skills and a passion for system design to contribute to complex backend architectures in a Senior capacity.",
+        "location": "Professional Summary"
+      }
+    ],
+    "interview_prep": [
+      {
+        "question": "Our Senior Backend Engineer roles typically require 3-5+ years of dedicated experience in designing and building complex backend systems. Based on your background, how do you see your current experience level aligning with these expectations?",
+        "source": "Alignment - Experience Level",
+        "severity": "high",
+        "likelihood": "high",
+        "coaching_note": "This question directly addresses the core mismatch between the candidate's experience and the role requirements. The candidate needs to articulate why they believe they are ready for a senior role despite limited experience, or acknowledge the gap and explain their growth trajectory and aspirations.",
+        "suggested_framework": "Direct explanation, potentially STAR if they try to give an example of accelerated growth or unique experience.",
+        "do_not": "Do not make assumptions about their capabilities based solely on years. Give them a chance to explain their perspective. Do not sugarcoat the experience requirement or imply it's flexible if it's not."
+      },
+      {
+        "question": "Can you describe a complex backend system you've designed from the ground up, including how you approached scalability, reliability, and maintainability challenges?",
+        "source": "Alignment - System Design & Architecture",
+        "severity": "high",
+        "likelihood": "high",
+        "coaching_note": "This probes for a critical senior-level skill that is explicitly noted as missing. Listen for depth, breadth, and independent decision-making. If they haven't designed one, they might describe contributing to one, which will further highlight the gap.",
+        "suggested_framework": "STAR (Situation, Task, Action, Result) for a specific project. Focus on *their* actions, decisions, and the rationale behind them.",
+        "do_not": "Do not accept vague answers or descriptions of systems where they only implemented a small part. Do not lead them with examples or specific technologies. Focus on their direct contributions to design and architecture."
+      },
+      {
+        "question": "Tell us about a time you led a significant technical initiative or mentored a junior engineer through a complex problem. What was your approach and what was the outcome?",
+        "source": "Alignment - Leadership & Mentorship",
+        "severity": "high",
+        "likelihood": "high",
+        "coaching_note": "This question directly addresses the leadership and mentorship aspects expected of a Senior Engineer. Look for examples of proactive leadership, guiding others, taking responsibility for project direction, and fostering growth.",
+        "suggested_framework": "STAR (Situation, Task, Action, Result). Emphasize the 'Action' and 'Result' related to their leadership or mentorship role.",
+        "do_not": "Do not accept examples where they were merely part of a team or only provided ad-hoc help. Do not let them pivot to individual contributions; the focus must be on leading or mentoring others."
+      },
+      {
+        "question": "Looking at your experience at ByteMint, you 'built internal API endpoints' and 'improved test coverage'. Can you elaborate on the scope of your ownership for these initiatives? Were you responsible for the initial design, full implementation lifecycle, and ongoing maintenance, or specific components?",
+        "source": "Ownership",
+        "severity": "medium",
+        "likelihood": "high",
+        "coaching_note": "This question aims to clarify the depth of their 'contributed' ownership. For a senior role, 'building' often implies full ownership from design to deployment and maintenance. This question helps confirm if their experience aligns with that expectation and reinforces the system design/leadership gaps.",
+        "suggested_framework": "STAR, focusing on the specific responsibilities, decisions, and the end-to-end lifecycle they managed.",
+        "do_not": "Do not assume 'built' means full ownership. Do not accept general statements; push for specifics on decision-making authority, problem-solving, and end-to-end responsibility for the feature or system."
+      }
+    ],
+    "telemetry": {
+      "request_id": "bd377813-8b60-4ef2-8c92-b592b21bfb7f",
+      "pipeline_version": "2.0",
+      "total_duration_ms": 71271,
+      "step_durations": {
+        "ingest_extract_text": 0,
+        "safety_check": 0,
+        "canonicalize": 11538,
+        "extractors_parallel": 12304,
+        "alignment": 10548,
+        "scoring": 0,
+        "recommendations": 23298,
+        "interview_prep": 13580
+      },
+      "models_used": {
+        "canonicalizer": "gemini-2.5-flash",
+        "impact": "gemini-2.5-flash",
+        "ownership": "gemini-2.5-flash",
+        "skills": "gemini-2.5-flash",
+        "ats": "gemini-2.5-flash",
+        "red_flags": "gemini-2.5-flash",
+        "alignment": "gemini-2.5-flash",
+        "recommendations": "gemini-2.5-flash",
+        "interview_prep": "gemini-2.5-flash"
+      }
+    }
+  },
+  "manager": {
+    "version": "2.0",
+    "resume_version_id": null,
+    "user_id": null,
+    "target_role": "Senior Backend Engineer",
+    "canonical": {
+      "summary": "Engineering manager leading cross-functional platform teams.",
+      "experience": [
+        {
+          "company": "Orbit Commerce",
+          "title": "Engineering Manager",
+          "start_date": "2020-03",
+          "end_date": null,
+          "is_current": true,
+          "date_ambiguous": false,
+          "location": null,
+          "bullets": [
+            "Led 14-member team across product, design, and QA",
+            "Increased release frequency from monthly to weekly and reduced defects by 33%"
+          ]
+        },
+        {
+          "company": "Orbit Commerce",
+          "title": "Tech Lead",
+          "start_date": "2018-01",
+          "end_date": "2020-02",
+          "is_current": false,
+          "date_ambiguous": false,
+          "location": null,
+          "bullets": [
+            "Owned roadmap execution for checkout and reduced drop-offs by 18%"
+          ]
+        },
+        {
+          "company": "SwiftCart",
+          "title": "Senior Engineer",
+          "start_date": "2015-01",
+          "end_date": "2017-12",
+          "is_current": false,
+          "date_ambiguous": false,
+          "location": null,
+          "bullets": [
+            "Built payment reconciliation workflows handling $12M monthly volume"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "City University",
+          "degree": "B.Tech",
+          "field": "Information Technology",
+          "start_date": "2010-01",
+          "end_date": "2014-01",
+          "gpa": null
+        }
+      ],
+      "skills": [
+        "Leadership",
+        "Python",
+        "Stakeholder Management",
+        "Agile",
+        "System Design"
+      ],
+      "projects": [],
+      "certifications": [],
+      "awards": [],
+      "metadata": {
+        "estimated_word_count": 94,
+        "section_order": [
+          "summary",
+          "experience",
+          "education",
+          "skills"
+        ],
+        "page_estimate": 1,
+        "bullet_count": 4,
+        "bullet_ratio": 0.04,
+        "needs_ocr": false
+      }
+    },
+    "signals": {
+      "impact": [
+        {
+          "role_index": 0,
+          "bullet_index": 0,
+          "text": "Led 14-member team across product, design, and QA",
+          "impact_type": "scope",
+          "quantification": "strong",
+          "star_score": 0.75,
+          "verbs": [
+            "Led"
+          ],
+          "metrics": [
+            "14-member"
+          ]
+        },
+        {
+          "role_index": 0,
+          "bullet_index": 1,
+          "text": "Increased release frequency from monthly to weekly and reduced defects by 33%",
+          "impact_type": "metric",
+          "quantification": "strong",
+          "star_score": 0.95,
+          "verbs": [
+            "Increased",
+            "reduced"
+          ],
+          "metrics": [
+            "monthly to weekly",
+            "33%"
+          ]
+        },
+        {
+          "role_index": 1,
+          "bullet_index": 0,
+          "text": "Owned roadmap execution for checkout and reduced drop-offs by 18%",
+          "impact_type": "metric",
+          "quantification": "strong",
+          "star_score": 0.9,
+          "verbs": [
+            "Owned",
+            "reduced"
+          ],
+          "metrics": [
+            "18%"
+          ]
+        },
+        {
+          "role_index": 2,
+          "bullet_index": 0,
+          "text": "Built payment reconciliation workflows handling $12M monthly volume",
+          "impact_type": "metric",
+          "quantification": "strong",
+          "star_score": 0.88,
+          "verbs": [
+            "Built",
+            "handling"
+          ],
+          "metrics": [
+            "$12M monthly volume"
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "role_index": 0,
+          "company": "Orbit Commerce",
+          "title": "Engineering Manager",
+          "ownership_level": "led",
+          "scope": "cross-functional",
+          "evidence": [
+            "Led 14-member team across product, design, and QA",
+            "Increased release frequency from monthly to weekly and reduced defects by 33%"
+          ],
+          "passive_flags": []
+        },
+        {
+          "role_index": 1,
+          "company": "Orbit Commerce",
+          "title": "Tech Lead",
+          "ownership_level": "led",
+          "scope": "cross-functional",
+          "evidence": [
+            "Owned roadmap execution for checkout and reduced drop-offs by 18%"
+          ],
+          "passive_flags": []
+        },
+        {
+          "role_index": 2,
+          "company": "SwiftCart",
+          "title": "Senior Engineer",
+          "ownership_level": "contributed",
+          "scope": "individual",
+          "evidence": [
+            "Built payment reconciliation workflows handling $12M monthly volume"
+          ],
+          "passive_flags": []
+        }
+      ],
+      "skills": {
+        "hard_skills": [
+          {
+            "name": "Agile",
+            "depth": "proficient",
+            "last_used": "Engineering Manager",
+            "context": "Increased release frequency from monthly to weekly"
+          },
+          {
+            "name": "System Design",
+            "depth": "proficient",
+            "last_used": "Senior Engineer",
+            "context": "Built payment reconciliation workflows handling $12M monthly volume"
+          }
+        ],
+        "soft_skills": [
+          {
+            "name": "Leadership",
+            "evidence": "Led 14-member team across product, design, and QA; Increased release frequency from monthly to weekly and reduced defects by 33%; Owned roadmap execution for checkout and reduced drop-offs by 18%"
+          },
+          {
+            "name": "Stakeholder Management",
+            "evidence": "Led 14-member team across product, design, and QA; Owned roadmap execution for checkout"
+          }
+        ],
+        "certifications": []
+      },
+      "ats": {
+        "overall_pass": false,
+        "pass_rate": 0.78,
+        "checks": [
+          {
+            "rule": "core_sections",
+            "passed": true,
+            "detail": "All core sections (Experience, Education, Skills) are present."
+          },
+          {
+            "rule": "date_consistency",
+            "passed": true,
+            "detail": "No specific date information provided to evaluate consistency."
+          },
+          {
+            "rule": "contact_email",
+            "passed": true,
+            "detail": "Email address found."
+          },
+          {
+            "rule": "contact_phone",
+            "passed": true,
+            "detail": "Phone number found."
+          },
+          {
+            "rule": "section_order_standard",
+            "passed": true,
+            "detail": "Standard section order detected (summary, experience, education, skills)."
+          },
+          {
+            "rule": "layout_bullet_ratio",
+            "passed": false,
+            "detail": "Low bullet ratio (0.04) suggests insufficient use of bullet points for achievements, potentially impacting readability and keyword density."
+          },
+          {
+            "rule": "layout_ocr_risk",
+            "passed": true,
+            "detail": "Document does not require OCR, indicating good parseability."
+          },
+          {
+            "rule": "length_word_count",
+            "passed": false,
+            "detail": "Estimated word count (94) is very low, suggesting insufficient content for a comprehensive resume."
+          },
+          {
+            "rule": "length_page_count",
+            "passed": true,
+            "detail": "Resume is concise with 1 page."
+          }
+        ]
+      },
+      "red_flags": {
+        "flags": []
+      }
+    },
+    "alignment": {
+      "fit_score": 65.0,
+      "strength_alignment": [
+        "Proven impact in backend systems development (checkout, payment reconciliation)",
+        "Demonstrated system design capabilities",
+        "Experience leading technical initiatives as a Tech Lead"
+      ],
+      "gaps": [
+        {
+          "area": "Recent hands-on backend development",
+          "severity": "medium",
+          "detail": "Current Engineering Manager role suggests less direct coding; need to verify recent practical experience with backend technologies."
+        },
+        {
+          "area": "Specific backend technology depth",
+          "severity": "medium",
+          "detail": "Resume lacks explicit mention of specific backend frameworks, cloud platforms, or database expertise relevant to modern Senior Backend Engineer roles."
+        }
+      ],
+      "narrative_assessment": "The candidate has a strong background as a Senior Engineer and Tech Lead, delivering impactful backend solutions and demonstrating system design skills. While Python is listed, their current Engineering Manager role raises questions about recent hands-on coding experience and familiarity with contemporary backend technologies, which would need to be thoroughly assessed for a Senior Backend Engineer IC position.",
+      "market_notes": "Candidates transitioning from Engineering Manager roles to Senior IC positions often require careful screening to confirm their desire for an IC role and to validate the recency and depth of their technical skills. The brevity of the resume also necessitates further probing for detailed technical contributions."
+    },
+    "score": {
+      "overall": 77.03,
+      "confidence": 100.0,
+      "dimensions": {
+        "impact_quality": {
+          "score": 78.7,
+          "weight": 0.25,
+          "weighted_contribution": 19.68,
+          "rationale": "Based on quantified outcomes and STAR quality"
+        },
+        "ownership": {
+          "score": 80.0,
+          "weight": 0.15,
+          "weighted_contribution": 12.0,
+          "rationale": "Leadership and ownership explicitness"
+        },
+        "skills_relevance": {
+          "score": 52.5,
+          "weight": 0.2,
+          "weighted_contribution": 10.5,
+          "rationale": "Skill depth and target-role keyword relevance"
+        },
+        "ats_compliance": {
+          "score": 78.0,
+          "weight": 0.15,
+          "weighted_contribution": 11.7,
+          "rationale": "ATS checks pass rate"
+        },
+        "red_flag_penalty": {
+          "score": 100.0,
+          "weight": 0.15,
+          "weighted_contribution": 15.0,
+          "rationale": "Penalty for risk signals"
+        },
+        "narrative_coherence": {
+          "score": 81.5,
+          "weight": 0.1,
+          "weighted_contribution": 8.15,
+          "rationale": "Summary, progression, and role alignment coherence"
+        }
+      },
+      "tier": "competitive"
+    },
+    "recommendations": [
+      {
+        "id": "skills_depth_specificity",
+        "priority": 1,
+        "title": "Add specific backend technology depth and context",
+        "dimension": "skills_relevance",
+        "effort": "moderate",
+        "estimated_score_impact": 12.0,
+        "description": "The resume lacks explicit mention of specific backend frameworks, cloud platforms, and database expertise relevant to modern Senior Backend Engineer roles. Create a dedicated 'Technical Skills' section listing proficiency levels and integrate specific technologies (e.g., Python, Django, Flask, AWS, GCP, Docker, Kubernetes, PostgreSQL, MongoDB, Kafka, REST, gRPC) into experience bullets.",
+        "before": "Python",
+        "after": "Technical Skills: Python (Expert, 8+ years), Django, Flask, FastAPI, AWS (EC2, S3, Lambda, RDS), Docker, Kubernetes, PostgreSQL, MongoDB, Kafka, RESTful APIs, gRPC, Git, CI/CD",
+        "location": "Skills section / Experience bullets"
+      },
+      {
+        "id": "ats_content_volume",
+        "priority": 2,
+        "title": "Significantly expand resume content and bullet points",
+        "dimension": "ats_compliance",
+        "effort": "high",
+        "estimated_score_impact": 15.0,
+        "description": "The resume is extremely brief (94 words, 0.04 bullet ratio), which is a major ATS red flag. Add more detailed bullet points for each role, elaborating on responsibilities, challenges, and technical solutions, especially for backend systems. Aim for 3-5 strong, detailed bullets per role to provide sufficient context and keyword density.",
+        "before": "Led 14-member team across product, design, and QA",
+        "after": "Led a 14-member cross-functional team (product, design, QA) to deliver critical backend features, implementing agile methodologies that increased release frequency from monthly to weekly and reduced production defects by 33%. This involved hands-on contribution to Python/Django services and mentoring junior engineers.",
+        "location": "All experience roles"
+      },
+      {
+        "id": "elaborate_tech_contributions",
+        "priority": 3,
+        "title": "Elaborate on technical contributions and system design",
+        "dimension": "impact_quality",
+        "effort": "moderate",
+        "estimated_score_impact": 8.0,
+        "description": "While existing quantifications are good, the overall brevity means many technical details are missing. For a Senior Backend Engineer, deep dives into system architecture, specific technologies used, and complex problem-solving are expected. Expand bullets to include the 'how' and 'what technologies' were used.",
+        "before": "Built payment reconciliation workflows handling $12M monthly volume",
+        "after": "Architected and built scalable payment reconciliation workflows using Python, Kafka, and PostgreSQL, processing $12M monthly volume with 99.9% accuracy and reducing manual reconciliation efforts by 40%.",
+        "location": "Senior Engineer / Tech Lead role bullets"
+      },
+      {
+        "id": "recent_hands_on_backend",
+        "priority": 4,
+        "title": "Explicitly highlight recent hands-on backend development",
+        "dimension": "narrative_coherence",
+        "effort": "moderate",
+        "estimated_score_impact": 10.0,
+        "description": "The current Engineering Manager role raises questions about recent hands-on coding experience for an IC role. Explicitly state recent backend development contributions, even if in a leadership role, to demonstrate continued technical proficiency and desire for an IC position. If direct coding was limited, focus on technical leadership, architecture, and code review contributions.",
+        "before": "Led 14-member team across product, design, and QA",
+        "after": "Led 14-member cross-functional team, while actively contributing to critical backend services (Python/Django) and system architecture, increasing release frequency from monthly to weekly and reducing defects by 33%.",
+        "location": "Engineering Manager role bullets"
+      },
+      {
+        "id": "tailor_summary_ic",
+        "priority": 5,
+        "title": "Refine resume summary for Senior IC Backend Engineer role",
+        "dimension": "narrative_coherence",
+        "effort": "low",
+        "estimated_score_impact": 7.0,
+        "description": "Ensure the resume summary clearly articulates the candidate's desire and qualifications for a Senior Individual Contributor (IC) Backend Engineer role, especially when transitioning from a management position. Highlight key backend expertise, system design skills, and a passion for hands-on technical work upfront.",
+        "before": "Experienced Engineering Manager and Tech Lead with a proven track record of delivering impactful solutions.",
+        "after": "Senior Backend Engineer with 8+ years of experience, including Tech Lead and Engineering Manager roles, specializing in building scalable, high-performance backend systems (Python, cloud platforms). Proven track record in system design, optimizing critical services (checkout, payments), and driving technical excellence as an Individual Contributor.",
+        "location": "Resume Summary"
+      }
+    ],
+    "interview_prep": [
+      {
+        "question": "Your most recent role is Engineering Manager. Can you describe your current level of hands-on backend development, and what motivates your interest in a Senior Backend Engineer individual contributor role at this time?",
+        "source": "alignment_gap",
+        "severity": "high",
+        "likelihood": "high",
+        "coaching_note": "This question addresses both the recency of hands-on skills and the career transition. Listen for genuine enthusiasm for IC work, specific examples of recent coding, and a clear rationale for the shift. Pay attention to whether their motivation aligns with the demands of a Senior IC role.",
+        "suggested_framework": "STAR (Situation, Task, Action, Result) for specific coding examples; 'Why this role/company' for motivation.",
+        "do_not": "Assume they are not technical or that they will struggle with IC work. Avoid leading questions that imply a negative bias towards their Engineering Manager experience."
+      },
+      {
+        "question": "Our Senior Backend Engineers are expected to have deep expertise in specific backend frameworks, cloud platforms, and database technologies. Can you elaborate on the specific technologies you've worked with recently, and to what depth?",
+        "source": "alignment_gap",
+        "severity": "high",
+        "likelihood": "high",
+        "coaching_note": "This directly probes the stated gap regarding specific technology depth. Look for specific names of technologies (e.g., Python/Django, AWS Lambda, PostgreSQL, Kafka), their role in using them, and examples of complex problems solved with them. Assess their understanding of trade-offs.",
+        "suggested_framework": "Technical deep dive, 'Tell me about a time you used X technology to solve Y problem.'",
+        "do_not": "Accept vague answers like 'various cloud platforms' or 'different databases.' Push for specifics, versions, and concrete examples of their application."
+      },
+      {
+        "question": "In your Engineering Manager and Tech Lead roles at Orbit Commerce, you led significant initiatives. Can you describe a specific instance where you personally designed, architected, or coded a critical backend component, detailing your individual technical contribution and the impact?",
+        "source": "ownership",
+        "severity": "medium",
+        "likelihood": "high",
+        "coaching_note": "This aims to differentiate between leading a team to achieve something and personally contributing technically. Focus on 'personally designed/architected/coded' to understand their individual technical prowess within leadership roles.",
+        "suggested_framework": "STAR, focusing on 'Action' being their individual technical work, not just team delegation.",
+        "do_not": "Let them describe team achievements without clearly identifying their personal technical input. Avoid asking only about 'what the team did' or 'what was delivered'."
+      },
+      {
+        "question": "Your Senior Engineer role at SwiftCart involved building payment reconciliation workflows. Can you walk us through the technical architecture of that system, focusing on any challenging design decisions or technical hurdles you personally overcame?",
+        "source": "ownership",
+        "severity": "medium",
+        "likelihood": "high",
+        "coaching_note": "This question leverages their strongest IC experience mentioned and probes for depth, architecture skills, and problem-solving. It also addresses the 'brevity of resume' by asking for more detail on a key project.",
+        "suggested_framework": "System design deep dive, STAR for challenges and solutions.",
+        "do_not": "Allow them to stay at a high level. Push for technical details, trade-offs made, and their specific role in the design and implementation, including any code they wrote."
+      }
+    ],
+    "telemetry": {
+      "request_id": "42d8d89d-0ef2-446b-9de1-5a7197613b0c",
+      "pipeline_version": "2.0",
+      "total_duration_ms": 66476,
+      "step_durations": {
+        "ingest_extract_text": 0,
+        "safety_check": 0,
+        "canonicalize": 7271,
+        "extractors_parallel": 11810,
+        "alignment": 11903,
+        "scoring": 0,
+        "recommendations": 21072,
+        "interview_prep": 14418
+      },
+      "models_used": {
+        "canonicalizer": "gemini-2.5-flash",
+        "impact": "gemini-2.5-flash",
+        "ownership": "gemini-2.5-flash",
+        "skills": "gemini-2.5-flash",
+        "ats": "gemini-2.5-flash",
+        "red_flags": "gemini-2.5-flash",
+        "alignment": "gemini-2.5-flash",
+        "recommendations": "gemini-2.5-flash",
+        "interview_prep": "gemini-2.5-flash"
+      }
+    }
+  },
+  "mid_level": {
+    "version": "2.0",
+    "resume_version_id": null,
+    "user_id": null,
+    "target_role": "Senior Backend Engineer",
+    "canonical": {
+      "summary": "Mid-level backend engineer focused on reliability and developer experience.",
+      "experience": [
+        {
+          "company": "GridLabs",
+          "title": "Software Engineer",
+          "start_date": "2020-01",
+          "end_date": null,
+          "is_current": true,
+          "date_ambiguous": false,
+          "location": null,
+          "bullets": [
+            "Built 5 internal developer tools and reduced setup time by 45%",
+            "Collaborated with SRE team to improve uptime to 99.95%"
+          ]
+        },
+        {
+          "company": "GridLabs",
+          "title": "Associate Engineer",
+          "start_date": "2018-07",
+          "end_date": "2019-12",
+          "is_current": false,
+          "date_ambiguous": false,
+          "location": null,
+          "bullets": [
+            "Implemented service health checks and reduced alert noise by 22%"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "State Tech University",
+          "degree": "B.Tech",
+          "field": null,
+          "start_date": "2014-01",
+          "end_date": "2018-01",
+          "gpa": null
+        }
+      ],
+      "skills": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "CI/CD"
+      ],
+      "projects": [
+        {
+          "name": "LogIQ",
+          "description": "Built log anomaly detector with 91% precision",
+          "technologies": [],
+          "url": null
+        }
+      ],
+      "certifications": [],
+      "awards": [],
+      "metadata": {
+        "estimated_word_count": 63,
+        "section_order": [
+          "Summary",
+          "Experience",
+          "Education",
+          "Skills",
+          "Projects"
+        ],
+        "page_estimate": 1,
+        "bullet_count": 3,
+        "bullet_ratio": 0.047619047619047616,
+        "needs_ocr": false
+      }
+    },
+    "signals": {
+      "impact": [
+        {
+          "role_index": 0,
+          "bullet_index": 0,
+          "text": "Built 5 internal developer tools and reduced setup time by 45%",
+          "impact_type": "metric",
+          "quantification": "strong",
+          "star_score": 0.95,
+          "verbs": [
+            "Built",
+            "reduced"
+          ],
+          "metrics": [
+            "5",
+            "45%"
+          ]
+        },
+        {
+          "role_index": 0,
+          "bullet_index": 1,
+          "text": "Collaborated with SRE team to improve uptime to 99.95%",
+          "impact_type": "metric",
+          "quantification": "strong",
+          "star_score": 0.9,
+          "verbs": [
+            "Collaborated",
+            "improve"
+          ],
+          "metrics": [
+            "99.95%"
+          ]
+        },
+        {
+          "role_index": 1,
+          "bullet_index": 0,
+          "text": "Implemented service health checks and reduced alert noise by 22%",
+          "impact_type": "metric",
+          "quantification": "strong",
+          "star_score": 0.93,
+          "verbs": [
+            "Implemented",
+            "reduced"
+          ],
+          "metrics": [
+            "22%"
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "role_index": 0,
+          "company": "GridLabs",
+          "title": "Software Engineer",
+          "ownership_level": "led",
+          "scope": "cross-functional",
+          "evidence": [
+            "Built 5 internal developer tools",
+            "Collaborated with SRE team"
+          ],
+          "passive_flags": [
+            "collaborated"
+          ]
+        },
+        {
+          "role_index": 1,
+          "company": "GridLabs",
+          "title": "Associate Engineer",
+          "ownership_level": "led",
+          "scope": "team",
+          "evidence": [
+            "Implemented service health checks"
+          ],
+          "passive_flags": []
+        }
+      ],
+      "skills": {
+        "hard_skills": [
+          {
+            "name": "Python",
+            "depth": "expert",
+            "last_used": "Software Engineer",
+            "context": "Built 5 internal developer tools and reduced setup time by 45%"
+          },
+          {
+            "name": "FastAPI",
+            "depth": "proficient",
+            "last_used": "Software Engineer",
+            "context": "Built 5 internal developer tools and reduced setup time by 45%"
+          },
+          {
+            "name": "PostgreSQL",
+            "depth": "proficient",
+            "last_used": "Software Engineer",
+            "context": "Built 5 internal developer tools and reduced setup time by 45%"
+          },
+          {
+            "name": "Docker",
+            "depth": "expert",
+            "last_used": "Associate Engineer",
+            "context": "Built 5 internal developer tools and reduced setup time by 45%, Collaborated with SRE team to improve uptime to 99.95%, Implemented service health checks and reduced alert noise by 22%"
+          },
+          {
+            "name": "CI/CD",
+            "depth": "expert",
+            "last_used": "Associate Engineer",
+            "context": "Built 5 internal developer tools and reduced setup time by 45%, Collaborated with SRE team to improve uptime to 99.95%, Implemented service health checks and reduced alert noise by 22%"
+          }
+        ],
+        "soft_skills": [
+          {
+            "name": "Problem-solving",
+            "evidence": "reduced setup time by 45%, improve uptime to 99.95%, reduced alert noise by 22%"
+          },
+          {
+            "name": "Collaboration",
+            "evidence": "Collaborated with SRE team to improve uptime to 99.95%"
+          },
+          {
+            "name": "Results-oriented",
+            "evidence": "reduced setup time by 45%, improve uptime to 99.95%, reduced alert noise by 22%"
+          }
+        ],
+        "certifications": []
+      },
+      "ats": {
+        "overall_pass": false,
+        "pass_rate": 0.67,
+        "checks": [
+          {
+            "rule": "core_sections",
+            "passed": true,
+            "detail": "All core sections (Experience, Education, Skills) are present."
+          },
+          {
+            "rule": "contact_email",
+            "passed": true,
+            "detail": "Email address found."
+          },
+          {
+            "rule": "contact_phone",
+            "passed": true,
+            "detail": "Phone number found."
+          },
+          {
+            "rule": "date_consistency",
+            "passed": false,
+            "detail": "No date information provided in the input to assess consistency."
+          },
+          {
+            "rule": "layout_risks",
+            "passed": true,
+            "detail": "No significant layout risks detected (e.g., single page, no OCR needed)."
+          },
+          {
+            "rule": "length_adequacy",
+            "passed": false,
+            "detail": "Resume is too short (63 words). Typically 300+ words expected for an adequate resume."
+          }
+        ]
+      },
+      "red_flags": {
+        "flags": []
+      }
+    },
+    "alignment": {
+      "fit_score": 70.0,
+      "strength_alignment": [
+        "Quantifiable impact on system reliability and developer experience",
+        "Expertise in core backend technologies (Python, Docker, CI/CD)",
+        "Demonstrated ownership and cross-functional collaboration"
+      ],
+      "gaps": [
+        {
+          "area": "senior-level scope",
+          "severity": "medium",
+          "detail": "Limited explicit evidence of leading architectural design, technical mentorship, or driving large-scale strategic initiatives, which are typical for a Senior Backend Engineer."
+        },
+        {
+          "area": "experience duration/title",
+          "severity": "low",
+          "detail": "Total experience (5.5 years) and current title ('Software Engineer') are at the lower end for typical Senior Backend Engineer expectations, and the summary self-identifies as 'Mid-level'."
+        }
+      ],
+      "narrative_assessment": "This candidate is a high-impact backend engineer with a proven ability to improve reliability and developer experience through quantifiable results. They possess strong technical skills and demonstrate good ownership. However, the profile suggests an advanced individual contributor rather than a senior leader, lacking explicit evidence of architectural design leadership, mentorship, or driving strategic technical direction, which are common expectations for a Senior Backend Engineer.",
+      "market_notes": "This candidate is likely a strong contender for Senior Backend Engineer roles that prioritize deep individual contribution and impact over broad technical leadership or mentorship. They may also be well-suited for Staff Engineer roles if they can articulate more about system design contributions."
+    },
+    "score": {
+      "overall": 78.57,
+      "confidence": 100.0,
+      "dimensions": {
+        "impact_quality": {
+          "score": 79.26666666666667,
+          "weight": 0.25,
+          "weighted_contribution": 19.82,
+          "rationale": "Based on quantified outcomes and STAR quality"
+        },
+        "ownership": {
+          "score": 90.0,
+          "weight": 0.15,
+          "weighted_contribution": 13.5,
+          "rationale": "Leadership and ownership explicitness"
+        },
+        "skills_relevance": {
+          "score": 63.0,
+          "weight": 0.2,
+          "weighted_contribution": 12.6,
+          "rationale": "Skill depth and target-role keyword relevance"
+        },
+        "ats_compliance": {
+          "score": 67.0,
+          "weight": 0.15,
+          "weighted_contribution": 10.05,
+          "rationale": "ATS checks pass rate"
+        },
+        "red_flag_penalty": {
+          "score": 100.0,
+          "weight": 0.15,
+          "weighted_contribution": 15.0,
+          "rationale": "Penalty for risk signals"
+        },
+        "narrative_coherence": {
+          "score": 76.0,
+          "weight": 0.1,
+          "weighted_contribution": 7.6,
+          "rationale": "Summary, progression, and role alignment coherence"
+        }
+      },
+      "tier": "competitive"
+    },
+    "recommendations": [
+      {
+        "id": "rec2",
+        "priority": 1,
+        "title": "Add a dedicated and detailed technical skills section",
+        "dimension": "skills_relevance",
+        "effort": "moderate",
+        "estimated_score_impact": 9.0,
+        "description": "Create a clear, organized skills section. Categorize skills (e.g., Languages, Frameworks, Cloud, Databases, Tools, CI/CD, Architecture Patterns). Explicitly list technologies relevant to a Senior Backend Engineer role (e.g., Python, Go, Java, Docker, Kubernetes, AWS/GCP/Azure, SQL/NoSQL, Microservices, Distributed Systems, API Design, CI/CD tools). Consider adding proficiency levels or context (e.g., 'Expert in Python, 5+ years').",
+        "before": null,
+        "after": null,
+        "location": "Skills Section"
+      },
+      {
+        "id": "rec1",
+        "priority": 2,
+        "title": "Significantly expand experience section with more detailed, senior-level impact bullets",
+        "dimension": "ats_compliance",
+        "effort": "high",
+        "estimated_score_impact": 12.0,
+        "description": "The resume is critically short (63 words), failing ATS length checks. Add more detailed bullets to each role, focusing on senior-level contributions like architectural design, technical leadership, mentorship, and cross-functional strategic initiatives. Quantify impact wherever possible to boost 'impact_quality'.",
+        "before": null,
+        "after": null,
+        "location": "Experience Section"
+      },
+      {
+        "id": "rec5",
+        "priority": 3,
+        "title": "Verify and standardize date formats for ATS compliance",
+        "dimension": "ats_compliance",
+        "effort": "low",
+        "estimated_score_impact": 6.0,
+        "description": "The ATS check indicated missing date information or inconsistency. Ensure all experience and education entries have clear start and end dates (e.g., 'Month YYYY \u2013 Month YYYY' or 'Month YYYY \u2013 Present') and use a consistent format throughout the resume. This is crucial for ATS parsing and chronological understanding of your career progression.",
+        "before": null,
+        "after": null,
+        "location": "Experience Section, Education Section"
+      },
+      {
+        "id": "rec3",
+        "priority": 4,
+        "title": "Reframe summary and current title to align with Senior Backend Engineer target",
+        "dimension": "narrative_coherence",
+        "effort": "low",
+        "estimated_score_impact": 8.0,
+        "description": "The current summary self-identifies as 'Mid-level' and the current title is 'Software Engineer', which can be a mismatch for a Senior Backend Engineer role. Rewrite the summary to emphasize senior-level capabilities, leadership potential, and relevant experience. Consider a more impactful title if appropriate (e.g., 'Senior Software Engineer' if the responsibilities align, or 'Backend Engineer with Senior-level Impact').",
+        "before": "Mid-level Software Engineer...",
+        "after": "Results-driven Backend Engineer with 5.5 years of experience specializing in scalable systems, developer tools, and reliability engineering, seeking to leverage expertise in a Senior Backend Engineer role.",
+        "location": ""
+      },
+      {
+        "id": "rec4",
+        "priority": 5,
+        "title": "Incorporate explicit senior-level leadership and architectural contributions into experience bullets",
+        "dimension": "ownership",
+        "effort": "moderate",
+        "estimated_score_impact": 7.0,
+        "description": "While existing bullets show strong individual contribution, they lack explicit mention of senior-level responsibilities like leading design, mentoring, or driving strategic technical decisions. For new and existing bullets, add phrases that highlight architectural ownership, technical leadership, cross-functional project leadership, or mentorship.",
+        "before": "Built 5 internal developer tools and reduced setup time by 45%",
+        "after": "Led the design and implementation of 5 internal developer tools, reducing developer setup time by 45% across engineering teams and establishing best practices for tool development.",
+        "location": ""
+      }
+    ],
+    "interview_prep": [
+      {
+        "question": "Tell us about a significant architectural decision you led or heavily influenced for a large-scale system. What was your specific contribution, and what was the impact?",
+        "source": "role_fit_gap: senior-level scope (architectural design)",
+        "severity": "high",
+        "likelihood": "high",
+        "coaching_note": "This question aims to uncover direct experience in architectural leadership. The candidate needs to articulate their specific role beyond just contributing to an existing design. Focus on the 'led or heavily influenced' part.",
+        "suggested_framework": "STAR (Situation, Task, Action, Result) with emphasis on 'Action' and 'Result' related to leadership/influence.",
+        "do_not": "Accept vague answers about 'being part of the team' or 'implementing a design' without clear ownership of the design decisions."
+      },
+      {
+        "question": "Beyond your day-to-day tasks, what's an example of a technical initiative you championed or drove from conception to completion that had a significant strategic impact on your team or company?",
+        "source": "role_fit_gap: senior-level scope (strategic initiatives)",
+        "severity": "high",
+        "likelihood": "high",
+        "coaching_note": "This probes their ability to identify problems, propose solutions, and lead efforts that align with broader business or technical strategy. Look for initiative and impact.",
+        "suggested_framework": "STAR, emphasizing the 'Situation' (identifying the need) and 'Action' (leading the initiative) and 'Result' (strategic impact).",
+        "do_not": "Accept examples of simply executing a task assigned to them. The key is 'championed or drove from conception'."
+      },
+      {
+        "question": "As a Senior Backend Engineer, mentorship is key. Can you describe a time you formally or informally mentored a less experienced engineer, and what was the outcome for them and the team?",
+        "source": "role_fit_gap: senior-level scope (technical mentorship)",
+        "severity": "medium",
+        "likelihood": "high",
+        "coaching_note": "Look for examples where the candidate actively guided someone's technical growth, not just answered questions. The 'outcome' is crucial.",
+        "suggested_framework": "STAR, focusing on the impact of their mentorship.",
+        "do_not": "Let them just say 'I helped people when they asked'. Push for specific examples of proactive mentorship or structured guidance."
+      },
+      {
+        "question": "Your profile mentions you self-identify as 'Mid-level'. Can you elaborate on what you believe distinguishes a Senior Backend Engineer from a Mid-level one, and how you see yourself fitting into that senior definition?",
+        "source": "role_fit_gap: experience duration/title (self-identification)",
+        "severity": "medium",
+        "likelihood": "high",
+        "coaching_note": "This directly addresses the candidate's self-perception and understanding of the role. It's an opportunity for them to articulate their readiness for a senior role despite their current title/experience.",
+        "suggested_framework": "Open-ended discussion, looking for insight into their understanding of senior responsibilities (e.g., impact, scope, mentorship, architecture, ownership).",
+        "do_not": "Let them just list technical skills. Push for understanding of *how* a senior engineer operates differently."
+      },
+      {
+        "question": "You mentioned collaborating with the SRE team. Can you give a specific example of a project where you collaborated, and clearly delineate your specific responsibilities and what you owned versus what the SRE team owned?",
+        "source": "ownership: passive_flag (collaborated)",
+        "severity": "low",
+        "likelihood": "medium",
+        "coaching_note": "This question aims to ensure that 'collaboration' didn't mean a lack of direct ownership. The candidate should be able to clearly define their boundaries and contributions.",
+        "suggested_framework": "STAR, with a strong focus on 'Action' and 'Result' to highlight their specific ownership within the collaborative effort.",
+        "do_not": "Accept generic statements like 'we worked together'. Push for specific tasks and decisions *they* were responsible for."
+      }
+    ],
+    "telemetry": {
+      "request_id": "22dd6ff9-3cf7-4e5e-b3b9-42bd80a6ae84",
+      "pipeline_version": "2.0",
+      "total_duration_ms": 65818,
+      "step_durations": {
+        "ingest_extract_text": 0,
+        "safety_check": 0,
+        "canonicalize": 7591,
+        "extractors_parallel": 13073,
+        "alignment": 15129,
+        "scoring": 0,
+        "recommendations": 15557,
+        "interview_prep": 14465
+      },
+      "models_used": {
+        "canonicalizer": "gemini-2.5-flash",
+        "impact": "gemini-2.5-flash",
+        "ownership": "gemini-2.5-flash",
+        "skills": "gemini-2.5-flash",
+        "ats": "gemini-2.5-flash",
+        "red_flags": "gemini-2.5-flash",
+        "alignment": "gemini-2.5-flash",
+        "recommendations": "gemini-2.5-flash",
+        "interview_prep": "gemini-2.5-flash"
+      }
+    }
+  },
+  "overlapping_roles": {
+    "version": "2.0",
+    "resume_version_id": null,
+    "user_id": null,
+    "target_role": "Senior Backend Engineer",
+    "canonical": {
+      "summary": "Full-stack engineer with concurrent consulting and product responsibilities.",
+      "experience": [
+        {
+          "company": "FinLeaf",
+          "title": "Consultant",
+          "start_date": "2021-06",
+          "end_date": "2022-12",
+          "is_current": false,
+          "date_ambiguous": false,
+          "location": null,
+          "bullets": [
+            "Built analytics dashboards used by 40 client managers"
+          ]
+        },
+        {
+          "company": "PixelNorth",
+          "title": "Senior Developer",
+          "start_date": "2018-01",
+          "end_date": "2020-12",
+          "is_current": false,
+          "date_ambiguous": false,
+          "location": null,
+          "bullets": [
+            "Improved release automation and reduced rollout time by 30%"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Institute of Technology",
+          "degree": "B.Sc",
+          "field": "Computer Science",
+          "start_date": "2013-01",
+          "end_date": "2017-01",
+          "gpa": null
+        }
+      ],
+      "skills": [
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "React",
+        "PostgreSQL"
+      ],
+      "projects": [],
+      "certifications": [],
+      "awards": [],
+      "metadata": {
+        "estimated_word_count": 74,
+        "section_order": [
+          "summary",
+          "experience",
+          "education",
+          "skills"
+        ],
+        "page_estimate": 1,
+        "bullet_count": 3,
+        "bullet_ratio": 0.041,
+        "needs_ocr": false
+      }
+    },
+    "signals": {
+      "impact": [
+        {
+          "role_index": 0,
+          "bullet_index": 0,
+          "text": "Built analytics dashboards used by 40 client managers",
+          "impact_type": "outcome",
+          "quantification": "strong",
+          "star_score": 0.85,
+          "verbs": [
+            "Built",
+            "used"
+          ],
+          "metrics": [
+            "40 client managers"
+          ]
+        },
+        {
+          "role_index": 1,
+          "bullet_index": 0,
+          "text": "Improved release automation and reduced rollout time by 30%",
+          "impact_type": "metric",
+          "quantification": "strong",
+          "star_score": 0.95,
+          "verbs": [
+            "Improved",
+            "reduced"
+          ],
+          "metrics": [
+            "30%"
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "role_index": 0,
+          "company": "FinLeaf",
+          "title": "Consultant",
+          "ownership_level": "contributed",
+          "scope": "cross-functional",
+          "evidence": [
+            "Built analytics dashboards used by 40 client managers"
+          ],
+          "passive_flags": []
+        },
+        {
+          "role_index": 1,
+          "company": "PixelNorth",
+          "title": "Senior Developer",
+          "ownership_level": "contributed",
+          "scope": "cross-functional",
+          "evidence": [
+            "Improved release automation and reduced rollout time by 30%"
+          ],
+          "passive_flags": []
+        }
+      ],
+      "skills": {
+        "hard_skills": [
+          {
+            "name": "JavaScript",
+            "depth": "expert",
+            "last_used": "Senior Developer",
+            "context": "Built analytics dashboards; Improved release automation"
+          },
+          {
+            "name": "TypeScript",
+            "depth": "expert",
+            "last_used": "Senior Developer",
+            "context": "Built analytics dashboards; Improved release automation"
+          },
+          {
+            "name": "Node.js",
+            "depth": "expert",
+            "last_used": "Senior Developer",
+            "context": "Built analytics dashboards; Improved release automation"
+          },
+          {
+            "name": "React",
+            "depth": "proficient",
+            "last_used": "Consultant",
+            "context": "Built analytics dashboards"
+          },
+          {
+            "name": "PostgreSQL",
+            "depth": "proficient",
+            "last_used": "Consultant",
+            "context": "Built analytics dashboards"
+          }
+        ],
+        "soft_skills": [
+          {
+            "name": "Problem Solving",
+            "evidence": "Built analytics dashboards; Improved release automation"
+          },
+          {
+            "name": "Results Orientation",
+            "evidence": "reduced rollout time by 30%"
+          },
+          {
+            "name": "Process Improvement",
+            "evidence": "Improved release automation"
+          },
+          {
+            "name": "Data Visualization",
+            "evidence": "Built analytics dashboards"
+          },
+          {
+            "name": "Stakeholder Management",
+            "evidence": "used by 40 client managers"
+          }
+        ],
+        "certifications": []
+      },
+      "ats": {
+        "overall_pass": false,
+        "pass_rate": 0.67,
+        "checks": [
+          {
+            "rule": "contact_email",
+            "passed": true,
+            "detail": "Email address found: candidate@example.com"
+          },
+          {
+            "rule": "contact_phone",
+            "passed": true,
+            "detail": "Phone number found: +919999999999"
+          },
+          {
+            "rule": "core_sections",
+            "passed": true,
+            "detail": "All core sections (Experience, Education, Skills) are present."
+          },
+          {
+            "rule": "resume_length",
+            "passed": false,
+            "detail": "Resume is critically short with only 74 words. Typically, a professional resume should be 250-750 words per page."
+          },
+          {
+            "rule": "section_order_standard",
+            "passed": true,
+            "detail": "Section order ['summary', 'experience', 'education', 'skills'] is standard and ATS-friendly."
+          },
+          {
+            "rule": "bullet_point_usage",
+            "passed": false,
+            "detail": "Low bullet point ratio (0.041) suggests a lack of detailed accomplishments or poor formatting for ATS parsing."
+          }
+        ]
+      },
+      "red_flags": {
+        "flags": [
+          {
+            "type": "employment_gap",
+            "severity": "medium",
+            "detail": "5-month gap between PixelNorth (2020-12) and FinLeaf (2021-06)",
+            "location": "experience"
+          },
+          {
+            "type": "job_hopping",
+            "severity": "low",
+            "detail": "Short tenure of 1 year 7 months at FinLeaf",
+            "location": "experience[0]"
+          },
+          {
+            "type": "employment_gap",
+            "severity": "high",
+            "detail": "Significant ongoing employment gap since FinLeaf (2022-12)",
+            "location": "experience[0]"
+          }
+        ]
+      }
+    },
+    "alignment": {
+      "fit_score": 58.0,
+      "strength_alignment": [
+        "Strong Node.js and PostgreSQL expertise",
+        "Demonstrated impact in backend-related areas (release automation, analytics)",
+        "Experience with TypeScript"
+      ],
+      "gaps": [
+        {
+          "area": "Employment Gap",
+          "severity": "high",
+          "detail": "Significant ongoing employment gap since December 2022 (over 1 year)."
+        },
+        {
+          "area": "Resume Detail",
+          "severity": "high",
+          "detail": "Critically short resume (74 words) and low bullet point usage, hindering assessment of senior-level depth."
+        },
+        {
+          "area": "Senior-level Ownership",
+          "severity": "medium",
+          "detail": "Ownership level described as 'contributed' rather than leading or owning significant features/architecture."
+        },
+        {
+          "area": "Total Experience",
+          "severity": "medium",
+          "detail": "Total professional experience (~4.5 years) is on the lower end for a Senior Backend Engineer role."
+        }
+      ],
+      "narrative_assessment": "The candidate possesses relevant backend skills (Node.js, PostgreSQL, TypeScript) and has demonstrated strong impact in previous roles, including improving release automation and building analytics dashboards. However, there are significant concerns regarding a prolonged employment gap since December 2022 and a critically brief resume that lacks the necessary detail to evaluate senior-level depth and responsibilities. The ownership level described as 'contributed' also suggests potential for growth in leading initiatives.",
+      "market_notes": "Given the significant employment gap and lack of resume detail, this candidate would likely face challenges in the current competitive market for a Senior Backend Engineer role. A detailed explanation for the gap and a significantly expanded resume showcasing senior-level contributions and architectural involvement would be crucial to progress."
+    },
+    "score": {
+      "overall": 68.3,
+      "confidence": 100.0,
+      "dimensions": {
+        "impact_quality": {
+          "score": 79.0,
+          "weight": 0.25,
+          "weighted_contribution": 19.75,
+          "rationale": "Based on quantified outcomes and STAR quality"
+        },
+        "ownership": {
+          "score": 60.0,
+          "weight": 0.15,
+          "weighted_contribution": 9.0,
+          "rationale": "Leadership and ownership explicitness"
+        },
+        "skills_relevance": {
+          "score": 63.0,
+          "weight": 0.2,
+          "weighted_contribution": 12.6,
+          "rationale": "Skill depth and target-role keyword relevance"
+        },
+        "ats_compliance": {
+          "score": 67.0,
+          "weight": 0.15,
+          "weighted_contribution": 10.05,
+          "rationale": "ATS checks pass rate"
+        },
+        "red_flag_penalty": {
+          "score": 66.0,
+          "weight": 0.15,
+          "weighted_contribution": 9.9,
+          "rationale": "Penalty for risk signals"
+        },
+        "narrative_coherence": {
+          "score": 70.0,
+          "weight": 0.1,
+          "weighted_contribution": 7.0,
+          "rationale": "Summary, progression, and role alignment coherence"
+        }
+      },
+      "tier": "competitive"
+    },
+    "recommendations": [
+      {
+        "id": "rec-3",
+        "priority": 1,
+        "title": "Elevate Ownership Language to Senior Level",
+        "dimension": "ownership",
+        "effort": "moderate",
+        "estimated_score_impact": 11.0,
+        "description": "The current descriptions often use 'contributed,' which is insufficient for a Senior Backend Engineer role. Demonstrate leadership, ownership, and architectural involvement. Use strong action verbs like 'Led,' 'Designed,' 'Architected,' 'Mentored,' 'Owned,' or 'Implemented end-to-end' to reflect senior-level responsibility and scope.",
+        "before": "Built analytics dashboards used by 40 client managers",
+        "after": "Architected and implemented scalable analytics dashboards, empowering 40 client managers with real-time insights and driving data-driven decisions.",
+        "location": "Experience Section"
+      },
+      {
+        "id": "rec-4",
+        "priority": 2,
+        "title": "Enhance Skills Section with Depth and Context",
+        "dimension": "skills_relevance",
+        "effort": "moderate",
+        "estimated_score_impact": 9.0,
+        "description": "The current skills section is likely too brief given the overall resume length. Expand it to include specific tools, frameworks, databases, cloud platforms, and methodologies relevant to a Senior Backend Engineer. Group skills logically (e.g., Languages, Frameworks, Databases, Cloud, Tools) and, for key skills, add a brief context of proficiency or recent usage.",
+        "before": null,
+        "after": null,
+        "location": "Skills Section"
+      },
+      {
+        "id": "rec-1",
+        "priority": 3,
+        "title": "Address the Significant Employment Gap",
+        "dimension": "red_flag_penalty",
+        "effort": "moderate",
+        "estimated_score_impact": 14.0,
+        "description": "A significant ongoing employment gap since December 2022 (over 1 year) is a major red flag. Provide a concise, positive explanation for this gap, ideally in a professional summary or cover letter. If it involved skill development, personal projects, or caregiving, frame it constructively to mitigate concerns.",
+        "before": null,
+        "after": null,
+        "location": "Professional Summary / Cover Letter"
+      },
+      {
+        "id": "rec-2",
+        "priority": 4,
+        "title": "Significantly Expand Resume Detail and Bullet Points",
+        "dimension": "ats_compliance",
+        "effort": "high",
+        "estimated_score_impact": 13.0,
+        "description": "The resume is critically short (74 words) and lacks detailed accomplishments, failing ATS checks for length and bullet point usage. Expand each role with 3-5 robust, outcome-oriented bullet points using the STAR method (Situation, Task, Action, Result) to showcase senior-level contributions, technical challenges, and quantifiable impact. This is crucial for both ATS and human review.",
+        "before": null,
+        "after": null,
+        "location": "Experience Section"
+      },
+      {
+        "id": "rec-5",
+        "priority": 5,
+        "title": "Add a Targeted Professional Summary",
+        "dimension": "narrative_coherence",
+        "effort": "moderate",
+        "estimated_score_impact": 7.0,
+        "description": "A concise 3-4 sentence professional summary at the top of the resume can effectively highlight your most relevant senior backend skills, key achievements, and career aspirations. This section also provides an opportunity to briefly and positively address the employment gap or frame it as a period of growth and skill development.",
+        "before": null,
+        "after": null,
+        "location": "Top of Resume"
+      }
+    ],
+    "interview_prep": [
+      {
+        "question": "Your resume shows a significant employment gap since December 2022. Can you walk us through what you've been doing during this time and what led to this gap?",
+        "source": "employment_gap",
+        "severity": "high",
+        "likelihood": "high",
+        "coaching_note": "This is a critical question. Be prepared to explain the gap clearly, concisely, and positively. Focus on any productive activities (learning, personal projects, volunteering, family responsibilities) and how you've stayed current with technology. Emphasize your readiness to return to work and your enthusiasm for this role.",
+        "suggested_framework": "Direct, honest, and forward-looking explanation. If applicable, use STAR for specific activities during the gap.",
+        "do_not": "Be vague, defensive, or overly negative about past circumstances. Avoid blaming others or dwelling on personal issues without pivoting to professional readiness."
+      },
+      {
+        "question": "Your resume is quite concise, making it challenging to assess senior-level depth. Could you elaborate on a complex technical challenge you've faced and led the solution for, perhaps at FinLeaf or PixelNorth, detailing your specific leadership and impact?",
+        "source": "alignment_gap",
+        "severity": "high",
+        "likelihood": "high",
+        "coaching_note": "This question aims to uncover the depth and leadership missing from your resume. Choose an example that clearly demonstrates your technical leadership, problem-solving skills, and impact at a senior level. Focus on *your* specific role in leading the solution, not just contributing.",
+        "suggested_framework": "STAR (Situation, Task, Action, Result) - emphasize the 'Action' and 'Result' with specific metrics and your leadership contributions.",
+        "do_not": "Provide a high-level overview. Avoid examples where you were merely a contributor. Don't just list technologies; explain *how* you used them to solve a complex problem and led the effort."
+      },
+      {
+        "question": "In your previous roles, particularly as a Senior Developer at PixelNorth and Consultant at FinLeaf, your resume indicates you 'contributed' to projects. Can you describe a specific instance where you took full ownership of a significant feature, architectural decision, or project from conception to deployment, and what the outcome was?",
+        "source": "ownership",
+        "severity": "high",
+        "likelihood": "high",
+        "coaching_note": "This question directly addresses the 'contributed' flag. You need to demonstrate clear ownership and leadership. Pick an example where you were the primary driver, made key decisions, and were accountable for the success or failure. Quantify the impact and highlight your autonomy.",
+        "suggested_framework": "STAR (Situation, Task, Action, Result) - focus on *your* ownership, decision-making, and leadership throughout the process.",
+        "do_not": "Describe a task where you were simply assigned a piece of work. Avoid using 'we' too much; focus on 'I' and your specific contributions as a leader."
+      },
+      {
+        "question": "With approximately 4.5 years of professional experience, which is on the lower end for a Senior Backend Engineer, how do you see yourself bringing senior-level impact and leadership to our team?",
+        "source": "alignment_gap",
+        "severity": "medium",
+        "likelihood": "medium",
+        "coaching_note": "Acknowledge your experience level but pivot to demonstrating your accelerated growth, impact, and readiness for senior responsibilities. Highlight specific instances where you've operated above your title, mentored others, or taken on leadership roles. Emphasize your ability to quickly learn and adapt.",
+        "suggested_framework": "Direct answer, followed by examples (STAR) of senior-level contributions or leadership.",
+        "do_not": "Apologize for your experience. Don't just list skills; explain how those skills translate into senior-level impact and leadership qualities."
+      },
+      {
+        "question": "Looking at your timeline, there's a 5-month gap between PixelNorth and FinLeaf. Could you tell us about that period?",
+        "source": "employment_gap",
+        "severity": "medium",
+        "likelihood": "medium",
+        "coaching_note": "Treat this like the larger gap, but it's less critical. Be concise and positive. If it was for personal reasons, state it generally and pivot to what you learned or how you prepared for your next role.",
+        "suggested_framework": "Direct, concise explanation.",
+        "do_not": "Dwell on it or make it sound like a significant problem. Keep it brief and professional."
+      },
+      {
+        "question": "Your tenure at FinLeaf was 1 year and 7 months. Can you explain your decision to move on after a relatively short period?",
+        "source": "job_hopping",
+        "severity": "low",
+        "likelihood": "medium",
+        "coaching_note": "Be honest but frame your departure positively. Focus on career growth, new opportunities, or a better fit for your long-term goals. Avoid speaking negatively about the previous employer. Emphasize what you're looking for in a long-term role now.",
+        "suggested_framework": "Direct explanation, focusing on growth and future aspirations.",
+        "do_not": "Criticize FinLeaf or any past employer. Don't make it sound like you're easily dissatisfied or prone to frequent job changes."
+      }
+    ],
+    "telemetry": {
+      "request_id": "ecca45f7-8362-49d5-849a-08c846bf7ada",
+      "pipeline_version": "2.0",
+      "total_duration_ms": 65542,
+      "step_durations": {
+        "ingest_extract_text": 0,
+        "safety_check": 0,
+        "canonicalize": 7626,
+        "extractors_parallel": 11396,
+        "alignment": 16184,
+        "scoring": 0,
+        "recommendations": 13185,
+        "interview_prep": 17148
+      },
+      "models_used": {
+        "canonicalizer": "gemini-2.5-flash",
+        "impact": "gemini-2.5-flash",
+        "ownership": "gemini-2.5-flash",
+        "skills": "gemini-2.5-flash",
+        "ats": "gemini-2.5-flash",
+        "red_flags": "gemini-2.5-flash",
+        "alignment": "gemini-2.5-flash",
+        "recommendations": "gemini-2.5-flash",
+        "interview_prep": "gemini-2.5-flash"
+      }
+    }
+  },
+  "senior": {
+    "version": "2.0",
+    "resume_version_id": null,
+    "user_id": null,
+    "target_role": "Senior Backend Engineer",
+    "canonical": {
+      "summary": "Senior backend engineer with 9+ years building high-scale distributed systems.",
+      "experience": [
+        {
+          "company": "ScaleForge",
+          "title": "Principal Engineer",
+          "start_date": "2021-01",
+          "end_date": null,
+          "is_current": true,
+          "date_ambiguous": false,
+          "location": null,
+          "bullets": [
+            "Led platform redesign serving 2M MAU and reduced p95 latency by 42%",
+            "Built 8 event-driven services and cut deployment failures by 55%"
+          ]
+        },
+        {
+          "company": "DataRail",
+          "title": "Senior Engineer",
+          "start_date": "2017-02",
+          "end_date": "2020-12",
+          "is_current": false,
+          "date_ambiguous": false,
+          "location": null,
+          "bullets": [
+            "Owned billing reliability roadmap and reduced incident count by 48%",
+            "Mentored 6 engineers and standardized SLO playbooks"
+          ]
+        },
+        {
+          "company": "AppNova",
+          "title": "Engineer",
+          "start_date": "2014-07",
+          "end_date": "2017-01",
+          "is_current": false,
+          "date_ambiguous": false,
+          "location": null,
+          "bullets": [
+            "Built partner APIs that improved integration speed by 35%"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "National Tech University",
+          "degree": "B.E.",
+          "field": "Computer Engineering",
+          "start_date": "2010-01",
+          "end_date": "2014-01",
+          "gpa": null
+        }
+      ],
+      "skills": [
+        "Python",
+        "Go",
+        "Kafka",
+        "PostgreSQL",
+        "Kubernetes",
+        "AWS"
+      ],
+      "projects": [],
+      "certifications": [
+        {
+          "name": "AWS Solutions Architect",
+          "issuer": "AWS",
+          "date": null
+        }
+      ],
+      "awards": [],
+      "metadata": {
+        "estimated_word_count": 106,
+        "section_order": [
+          "summary",
+          "experience",
+          "education",
+          "skills",
+          "certifications"
+        ],
+        "page_estimate": 1,
+        "bullet_count": 5,
+        "bullet_ratio": 0.047,
+        "needs_ocr": false
+      }
+    },
+    "signals": {
+      "impact": [
+        {
+          "role_index": 0,
+          "bullet_index": 0,
+          "text": "Led platform redesign serving 2M MAU and reduced p95 latency by 42%",
+          "impact_type": "metric",
+          "quantification": "strong",
+          "star_score": 0.95,
+          "verbs": [
+            "Led",
+            "serving",
+            "reduced"
+          ],
+          "metrics": [
+            "2M MAU",
+            "42%"
+          ]
+        },
+        {
+          "role_index": 0,
+          "bullet_index": 1,
+          "text": "Built 8 event-driven services and cut deployment failures by 55%",
+          "impact_type": "metric",
+          "quantification": "strong",
+          "star_score": 0.93,
+          "verbs": [
+            "Built",
+            "cut"
+          ],
+          "metrics": [
+            "8",
+            "55%"
+          ]
+        },
+        {
+          "role_index": 1,
+          "bullet_index": 0,
+          "text": "Owned billing reliability roadmap and reduced incident count by 48%",
+          "impact_type": "metric",
+          "quantification": "strong",
+          "star_score": 0.91,
+          "verbs": [
+            "Owned",
+            "reduced"
+          ],
+          "metrics": [
+            "48%"
+          ]
+        },
+        {
+          "role_index": 1,
+          "bullet_index": 1,
+          "text": "Mentored 6 engineers and standardized SLO playbooks",
+          "impact_type": "outcome",
+          "quantification": "strong",
+          "star_score": 0.85,
+          "verbs": [
+            "Mentored",
+            "standardized"
+          ],
+          "metrics": [
+            "6 engineers"
+          ]
+        },
+        {
+          "role_index": 2,
+          "bullet_index": 0,
+          "text": "Built partner APIs that improved integration speed by 35%",
+          "impact_type": "metric",
+          "quantification": "strong",
+          "star_score": 0.9,
+          "verbs": [
+            "Built",
+            "improved"
+          ],
+          "metrics": [
+            "35%"
+          ]
+        }
+      ],
+      "ownership": [
+        {
+          "role_index": 0,
+          "company": "ScaleForge",
+          "title": "Principal Engineer",
+          "ownership_level": "led",
+          "scope": "org-wide",
+          "evidence": [
+            "Led platform redesign serving 2M MAU and reduced p95 latency by 42%",
+            "Built 8 event-driven services and cut deployment failures by 55%"
+          ],
+          "passive_flags": []
+        },
+        {
+          "role_index": 1,
+          "company": "DataRail",
+          "title": "Senior Engineer",
+          "ownership_level": "led",
+          "scope": "cross-functional",
+          "evidence": [
+            "Owned billing reliability roadmap and reduced incident count by 48%",
+            "Mentored 6 engineers and standardized SLO playbooks"
+          ],
+          "passive_flags": []
+        },
+        {
+          "role_index": 2,
+          "company": "AppNova",
+          "title": "Engineer",
+          "ownership_level": "led",
+          "scope": "cross-functional",
+          "evidence": [
+            "Built partner APIs that improved integration speed by 35%"
+          ],
+          "passive_flags": []
+        }
+      ],
+      "skills": {
+        "hard_skills": [
+          {
+            "name": "AWS",
+            "depth": "expert",
+            "last_used": "Principal Engineer",
+            "context": "Led platform redesign serving 2M MAU; Built 8 event-driven services"
+          },
+          {
+            "name": "Platform Design",
+            "depth": "expert",
+            "last_used": "Principal Engineer",
+            "context": "Led platform redesign serving 2M MAU and reduced p95 latency by 42%"
+          },
+          {
+            "name": "Event-Driven Architecture",
+            "depth": "expert",
+            "last_used": "Principal Engineer",
+            "context": "Built 8 event-driven services and cut deployment failures by 55%"
+          },
+          {
+            "name": "Reliability Engineering",
+            "depth": "expert",
+            "last_used": "Senior Engineer",
+            "context": "Owned billing reliability roadmap and reduced incident count by 48%"
+          },
+          {
+            "name": "Python",
+            "depth": "proficient",
+            "last_used": "Principal Engineer",
+            "context": "Listed skill, implied in building services and APIs"
+          },
+          {
+            "name": "Go",
+            "depth": "proficient",
+            "last_used": "Principal Engineer",
+            "context": "Listed skill"
+          },
+          {
+            "name": "Kafka",
+            "depth": "proficient",
+            "last_used": "Principal Engineer",
+            "context": "Listed skill, implied in building 8 event-driven services"
+          },
+          {
+            "name": "PostgreSQL",
+            "depth": "proficient",
+            "last_used": "Principal Engineer",
+            "context": "Listed skill"
+          },
+          {
+            "name": "Kubernetes",
+            "depth": "proficient",
+            "last_used": "Principal Engineer",
+            "context": "Listed skill, implied in platform redesign and deployment"
+          },
+          {
+            "name": "API Development",
+            "depth": "proficient",
+            "last_used": "Engineer",
+            "context": "Built partner APIs that improved integration speed by 35%"
+          },
+          {
+            "name": "SLO (Service Level Objectives)",
+            "depth": "proficient",
+            "last_used": "Senior Engineer",
+            "context": "standardized SLO playbooks"
+          }
+        ],
+        "soft_skills": [
+          {
+            "name": "Leadership",
+            "evidence": "Led platform redesign serving 2M MAU and reduced p95 latency by 42%"
+          },
+          {
+            "name": "Problem Solving",
+            "evidence": "reduced p95 latency by 42%"
+          },
+          {
+            "name": "Mentorship",
+            "evidence": "Mentored 6 engineers and standardized SLO playbooks"
+          },
+          {
+            "name": "Ownership",
+            "evidence": "Owned billing reliability roadmap and reduced incident count by 48%"
+          },
+          {
+            "name": "Standardization",
+            "evidence": "standardized SLO playbooks"
+          }
+        ],
+        "certifications": [
+          "AWS Solutions Architect"
+        ]
+      },
+      "ats": {
+        "overall_pass": false,
+        "pass_rate": 0.67,
+        "checks": [
+          {
+            "rule": "contact_email",
+            "passed": true,
+            "detail": "Email address found: candidate@example.com."
+          },
+          {
+            "rule": "contact_phone",
+            "passed": true,
+            "detail": "Phone number found: +919999999999."
+          },
+          {
+            "rule": "core_sections",
+            "passed": true,
+            "detail": "All core sections (Experience, Education, Skills) are present."
+          },
+          {
+            "rule": "standard_section_order",
+            "passed": true,
+            "detail": "Standard section order detected: Summary, Experience, Education, Skills, Certifications."
+          },
+          {
+            "rule": "document_length",
+            "passed": false,
+            "detail": "Document is extremely short (106 words), suggesting a significant lack of detail or content."
+          },
+          {
+            "rule": "page_count",
+            "passed": true,
+            "detail": "Document is estimated to be 1 page, which is ideal."
+          },
+          {
+            "rule": "bullet_point_usage",
+            "passed": false,
+            "detail": "Low bullet point ratio (0.047) suggests insufficient use of concise, action-oriented descriptions."
+          },
+          {
+            "rule": "ocr_requirement",
+            "passed": true,
+            "detail": "Document does not require OCR, indicating good parseability."
+          },
+          {
+            "rule": "date_consistency",
+            "passed": false,
+            "detail": "Cannot assess date consistency due to lack of date information in the input data."
+          }
+        ]
+      },
+      "red_flags": {
+        "flags": []
+      }
+    },
+    "alignment": {
+      "fit_score": 95.0,
+      "strength_alignment": [
+        "Extensive experience in high-scale distributed systems design and implementation",
+        "Proven track record in reliability engineering and performance optimization (e.g., 42% latency reduction, 48% incident reduction)",
+        "Strong technical leadership and mentorship capabilities (e.g., led platform redesign, mentored 6 engineers)",
+        "Deep expertise in modern backend technologies including event-driven architecture, Kafka, Kubernetes, and AWS",
+        "Quantifiable impact and ownership demonstrated across multiple roles"
+      ],
+      "gaps": [
+        {
+          "area": "resume detail",
+          "severity": "low",
+          "detail": "The resume is highly concise; while the impact is clear, expanding on specific technical challenges and architectural decisions could further showcase depth."
+        }
+      ],
+      "narrative_assessment": "This candidate is an outstanding fit for a Senior Backend Engineer role, possessing a decade of experience, including a Principal Engineer title, with a strong focus on high-scale distributed systems and reliability. Their demonstrated leadership, technical depth, and quantifiable impact align perfectly with the requirements of a senior-level position.",
+      "market_notes": "The resume's conciseness (flagged by ATS for length and bullet usage) might require a more thorough review to fully appreciate the candidate's extensive experience. Expanding on project specifics could enhance marketability for Staff/Principal level roles."
+    },
+    "score": {
+      "overall": 81.74,
+      "confidence": 100.0,
+      "dimensions": {
+        "impact_quality": {
+          "score": 79.08,
+          "weight": 0.25,
+          "weighted_contribution": 19.77,
+          "rationale": "Based on quantified outcomes and STAR quality"
+        },
+        "ownership": {
+          "score": 90.0,
+          "weight": 0.15,
+          "weighted_contribution": 13.5,
+          "rationale": "Leadership and ownership explicitness"
+        },
+        "skills_relevance": {
+          "score": 68.86363636363637,
+          "weight": 0.2,
+          "weighted_contribution": 13.77,
+          "rationale": "Skill depth and target-role keyword relevance"
+        },
+        "ats_compliance": {
+          "score": 67.0,
+          "weight": 0.15,
+          "weighted_contribution": 10.05,
+          "rationale": "ATS checks pass rate"
+        },
+        "red_flag_penalty": {
+          "score": 100.0,
+          "weight": 0.15,
+          "weighted_contribution": 15.0,
+          "rationale": "Penalty for risk signals"
+        },
+        "narrative_coherence": {
+          "score": 96.5,
+          "weight": 0.1,
+          "weighted_contribution": 9.65,
+          "rationale": "Summary, progression, and role alignment coherence"
+        }
+      },
+      "tier": "strong"
+    },
+    "recommendations": [
+      {
+        "id": "rec1",
+        "priority": 1,
+        "title": "Expand content to address conciseness and add technical depth",
+        "dimension": "ats_compliance",
+        "effort": "high",
+        "estimated_score_impact": 15.0,
+        "description": "Your resume is flagged by ATS as extremely short (106 words) and has a low bullet point ratio. Expand on key achievements, technical challenges, and architectural decisions for each role to provide more context and detail. Aim for 3-5 strong, detailed bullets per role to showcase your extensive experience and technical acumen.",
+        "before": null,
+        "after": null,
+        "location": "Experience section"
+      },
+      {
+        "id": "rec3",
+        "priority": 2,
+        "title": "Ensure all employment dates are present and consistent",
+        "dimension": "ats_compliance",
+        "effort": "low",
+        "estimated_score_impact": 8.0,
+        "description": "The ATS could not assess date consistency due to missing date information in the input. Ensure all employment start and end dates (month/year) are clearly listed for each role to prevent parsing errors and ensure full ATS compliance.",
+        "before": null,
+        "after": null,
+        "location": "Experience section"
+      },
+      {
+        "id": "rec2",
+        "priority": 3,
+        "title": "Integrate specific technologies and architectural decisions into experience bullets",
+        "dimension": "skills_relevance",
+        "effort": "moderate",
+        "estimated_score_impact": 12.0,
+        "description": "While your impact is clear, the resume lacks explicit mention of the specific technologies, frameworks, and architectural patterns used. Weave these details into your bullet points to showcase technical depth and relevance to a Senior Backend Engineer role, improving keyword matching for ATS.",
+        "before": "Led platform redesign serving 2M MAU and reduced p95 latency by 42%",
+        "after": "Led redesign of high-scale distributed platform using Kafka, Kubernetes, and AWS Lambda, serving 2M MAU and reducing p95 latency by 42% through microservice optimization.",
+        "location": "Experience section"
+      },
+      {
+        "id": "rec4",
+        "priority": 4,
+        "title": "Add a dedicated 'Technical Skills' section with proficiency context",
+        "dimension": "skills_relevance",
+        "effort": "moderate",
+        "estimated_score_impact": 7.0,
+        "description": "Create a concise, well-structured technical skills section that lists your core competencies (e.g., Languages, Frameworks, Databases, Cloud Platforms, Tools). This helps ATS and recruiters quickly identify your technical stack and assess relevance. Consider adding proficiency levels or examples of where/how recently you used them.",
+        "before": null,
+        "after": "Technical Skills: Languages: Go, Python, Java; Cloud: AWS (EC2, S3, Lambda, RDS, Kafka), GCP; Databases: PostgreSQL, Cassandra, Redis; Tools: Kubernetes, Docker, Terraform, Jenkins",
+        "location": "Skills section"
+      },
+      {
+        "id": "rec5",
+        "priority": 5,
+        "title": "Elaborate on leadership and mentorship contributions",
+        "dimension": "ownership",
+        "effort": "moderate",
+        "estimated_score_impact": 6.0,
+        "description": "While your leadership is evident, expand on the 'how' of your leadership and mentorship. Describe specific challenges you overcame, the scope of your influence, and the quantifiable impact of your guidance on team members or projects to further highlight your senior-level capabilities.",
+        "before": "Mentored 6 engineers and standardized SLO playbooks",
+        "after": "Mentored 6 junior and mid-level engineers, fostering a culture of reliability and standardizing SLO playbooks across 3 teams, improving incident response by 20%.",
+        "location": "Experience section"
+      }
+    ],
+    "interview_prep": [
+      {
+        "question": "Regarding the platform redesign at ScaleForge that served 2M MAU and reduced p95 latency by 42%, can you walk us through the most significant technical challenges you faced and the key architectural decisions you made to achieve that impact?",
+        "source": "alignment_gap",
+        "severity": "medium",
+        "likelihood": "high",
+        "coaching_note": "This question aims to validate the depth of experience behind a significant achievement. The candidate needs to move beyond high-level impact statements and demonstrate senior-level problem-solving and architectural thinking, which is crucial for a Senior Backend Engineer role.",
+        "suggested_framework": "STAR (Situation, Task, Action, Result) with a strong emphasis on the 'Action' and 'Result' parts detailing technical choices, trade-offs, and their rationale. Focus on 'Why' and 'How'.",
+        "do_not": "Simply reiterate the achievement or provide a superficial overview. Avoid getting bogged down in minor implementation details without linking them to architectural decisions or challenges."
+      },
+      {
+        "question": "You mentioned building 8 event-driven services at ScaleForge. What were the primary design considerations and trade-offs you evaluated when architecting these services, especially concerning scalability, fault tolerance, and data consistency?",
+        "source": "alignment_gap",
+        "severity": "medium",
+        "likelihood": "high",
+        "coaching_note": "This probes the candidate's understanding of complex distributed systems design beyond just building them. It assesses their ability to think critically about system properties and make informed architectural choices, a key skill for a senior role.",
+        "suggested_framework": "Problem-Solution-Tradeoffs. Describe the problem space, the chosen solution, and critically evaluate the alternatives considered and the trade-offs made.",
+        "do_not": "Just list technologies used. Avoid generic answers about event-driven architecture; focus on their specific decisions and the context at ScaleForge."
+      },
+      {
+        "question": "At DataRail, you owned the billing reliability roadmap and reduced incident count by 48%. Can you elaborate on the most critical reliability challenges you identified and the specific architectural or process changes you implemented to achieve such a significant reduction?",
+        "source": "alignment_gap",
+        "severity": "medium",
+        "likelihood": "high",
+        "coaching_note": "This question assesses the candidate's strategic thinking in reliability engineering, their ability to diagnose systemic issues, and their leadership in driving impactful solutions. This is a critical area for a Senior Backend Engineer.",
+        "suggested_framework": "Root Cause Analysis -> Solution Design -> Impact Measurement. Detail how issues were identified, what solutions were chosen (and why), and how success was measured.",
+        "do_not": "Blame external factors or focus solely on operational fixes. Emphasize architectural improvements and proactive measures."
+      }
+    ],
+    "telemetry": {
+      "request_id": "1e74887d-746a-48d9-89f8-06bc27396adc",
+      "pipeline_version": "2.0",
+      "total_duration_ms": 60574,
+      "step_durations": {
+        "ingest_extract_text": 0,
+        "safety_check": 0,
+        "canonicalize": 10038,
+        "extractors_parallel": 12514,
+        "alignment": 9915,
+        "scoring": 0,
+        "recommendations": 16425,
+        "interview_prep": 11680
+      },
+      "models_used": {
+        "canonicalizer": "gemini-2.5-flash",
+        "impact": "gemini-2.5-flash",
+        "ownership": "gemini-2.5-flash",
+        "skills": "gemini-2.5-flash",
+        "ats": "gemini-2.5-flash",
+        "red_flags": "gemini-2.5-flash",
+        "alignment": "gemini-2.5-flash",
+        "recommendations": "gemini-2.5-flash",
+        "interview_prep": "gemini-2.5-flash"
+      }
+    }
+  },
+  "weak_formatting": {
+    "version": "2.0",
+    "resume_version_id": null,
+    "user_id": null,
+    "target_role": "Senior Backend Engineer",
+    "canonical": {
+      "summary": "RAVI SHARMA backend stuff and projects and work history worked on many things responsible for backend tasks helped with APIs and did various improvements",
+      "experience": [],
+      "education": [],
+      "skills": [],
+      "projects": [],
+      "certifications": [],
+      "awards": [],
+      "metadata": {
+        "estimated_word_count": 42,
+        "section_order": [],
+        "page_estimate": 1,
+        "bullet_count": 0,
+        "bullet_ratio": 0.0,
+        "needs_ocr": false
+      }
+    },
+    "signals": {
+      "impact": [],
+      "ownership": [],
+      "skills": {
+        "hard_skills": [],
+        "soft_skills": [],
+        "certifications": []
+      },
+      "ats": {
+        "overall_pass": false,
+        "pass_rate": 0.4,
+        "checks": [
+          {
+            "rule": "core_sections",
+            "passed": false,
+            "detail": "Missing core sections: Experience, Education, Skills."
+          },
+          {
+            "rule": "date_consistency",
+            "passed": true,
+            "detail": "No date information found to check consistency."
+          },
+          {
+            "rule": "contact_completeness",
+            "passed": true,
+            "detail": "Email and phone number are present."
+          },
+          {
+            "rule": "layout_risks",
+            "passed": false,
+            "detail": "Empty section order suggests potential parsing issues or lack of structure. No bullets found."
+          },
+          {
+            "rule": "resume_length",
+            "passed": false,
+            "detail": "Resume is too short (42 words). Typically 300+ words are expected for a complete resume."
+          }
+        ]
+      },
+      "red_flags": {
+        "flags": []
+      }
+    },
+    "alignment": {
+      "fit_score": 10.0,
+      "strength_alignment": [],
+      "gaps": [
+        {
+          "area": "Comprehensive Professional Experience",
+          "severity": "critical",
+          "detail": "The resume is critically incomplete, missing core sections such as detailed work history, specific projects, and educational background, making it impossible to assess qualifications for a Senior Backend Engineer role."
+        },
+        {
+          "area": "Specific Technical Skills",
+          "severity": "critical",
+          "detail": "No specific backend technologies, programming languages, frameworks, or tools are listed or demonstrated, which are essential for a Senior Backend Engineer position."
+        },
+        {
+          "area": "Demonstrated Impact and Ownership",
+          "severity": "critical",
+          "detail": "The resume provides no evidence of impact, ownership, or specific achievements in any backend capacity, which are key requirements for a senior-level role."
+        }
+      ],
+      "narrative_assessment": "The provided resume is critically incomplete, lacking essential sections such as work experience, education, and specific technical skills. The summary is too generic to offer any meaningful insight into the candidate's qualifications or achievements for a Senior Backend Engineer position. It is unassessable in its current state.",
+      "market_notes": "This resume would be immediately rejected by ATS and human screeners due to its severe lack of content. The candidate must develop a comprehensive resume detailing their professional experience, specific technical skills, educational background, and quantifiable achievements to be considered for any professional role."
+    },
+    "score": {
+      "overall": 38.5,
+      "confidence": 20.0,
+      "dimensions": {
+        "impact_quality": {
+          "score": 20.0,
+          "weight": 0.25,
+          "weighted_contribution": 5.0,
+          "rationale": "No impact bullets detected"
+        },
+        "ownership": {
+          "score": 30.0,
+          "weight": 0.15,
+          "weighted_contribution": 4.5,
+          "rationale": "No role ownership signals"
+        },
+        "skills_relevance": {
+          "score": 25.0,
+          "weight": 0.2,
+          "weighted_contribution": 5.0,
+          "rationale": "No hard skills extracted"
+        },
+        "ats_compliance": {
+          "score": 40.0,
+          "weight": 0.15,
+          "weighted_contribution": 6.0,
+          "rationale": "ATS checks pass rate"
+        },
+        "red_flag_penalty": {
+          "score": 100.0,
+          "weight": 0.15,
+          "weighted_contribution": 15.0,
+          "rationale": "Penalty for risk signals"
+        },
+        "narrative_coherence": {
+          "score": 30.0,
+          "weight": 0.1,
+          "weighted_contribution": 3.0,
+          "rationale": "Summary, progression, and role alignment coherence"
+        }
+      },
+      "tier": "major-gaps"
+    },
+    "recommendations": [
+      {
+        "id": "rec-4",
+        "priority": 1,
+        "title": "Quantify Impact and Demonstrate Ownership",
+        "dimension": "impact_quality",
+        "effort": "high",
+        "estimated_score_impact": 10.0,
+        "description": "For each bullet point in your work experience, quantify your achievements with numbers, percentages, or specific outcomes. Use strong action verbs that convey ownership, leadership, and direct contribution to business goals.",
+        "before": "Responsible for backend development tasks.",
+        "after": "Led the design and implementation of a new microservices architecture, improving system scalability by 40% and reducing latency by 15%.",
+        "location": ""
+      },
+      {
+        "id": "rec-2",
+        "priority": 2,
+        "title": "Detail Work Experience with Backend Focus",
+        "dimension": "skills_relevance",
+        "effort": "high",
+        "estimated_score_impact": 12.0,
+        "description": "Once the Work Experience section is added, populate it with detailed descriptions of your roles, responsibilities, and projects, specifically highlighting backend engineering tasks, technologies used, and contributions relevant to a Senior Backend Engineer role.",
+        "before": null,
+        "after": "Developed and maintained RESTful APIs using Python and Django, handling over 10,000 requests per minute with 99.9% uptime.",
+        "location": ""
+      },
+      {
+        "id": "rec-3",
+        "priority": 3,
+        "title": "List Specific Backend Technical Skills",
+        "dimension": "skills_relevance",
+        "effort": "moderate",
+        "estimated_score_impact": 10.0,
+        "description": "Create a dedicated 'Skills' section to explicitly list all relevant programming languages, frameworks, databases, cloud platforms, and tools essential for a Senior Backend Engineer. This is critical for ATS matching.",
+        "before": null,
+        "after": "Skills: Python, Go, Java, Django, Spring Boot, PostgreSQL, MongoDB, Docker, Kubernetes, AWS, RESTful APIs, Microservices, CI/CD",
+        "location": ""
+      },
+      {
+        "id": "rec-5",
+        "priority": 4,
+        "title": "Rewrite Generic Summary into a Targeted Professional Summary",
+        "dimension": "narrative_coherence",
+        "effort": "moderate",
+        "estimated_score_impact": 8.0,
+        "description": "Transform the current generic summary into a concise, 3-4 sentence professional summary that highlights your years of experience, core backend skills, and career aspirations, specifically tailored for a Senior Backend Engineer role.",
+        "before": "Experienced professional seeking new opportunities.",
+        "after": "Senior Backend Engineer with 7+ years of experience designing, developing, and deploying scalable microservices and APIs using Python, Go, and AWS. Proven ability to lead complex projects and optimize system performance.",
+        "location": ""
+      },
+      {
+        "id": "rec-1",
+        "priority": 5,
+        "title": "Add Essential Core Resume Sections",
+        "dimension": "ats_compliance",
+        "effort": "high",
+        "estimated_score_impact": 15.0,
+        "description": "The resume is critically incomplete, lacking fundamental sections such as Work Experience, Education, and a dedicated Skills section. These are mandatory for ATS parsing and human review, and their absence makes the resume unassessable.",
+        "before": null,
+        "after": null,
+        "location": "Entire Resume"
+      }
+    ],
+    "interview_prep": [
+      {
+        "question": "Your resume is critically incomplete, missing sections like detailed work history and educational background. Could you please walk us through your professional journey, highlighting experiences relevant to a Senior Backend Engineer role?",
+        "source": "role-fit gap",
+        "severity": "high",
+        "likelihood": "high",
+        "coaching_note": "This question aims to gather the foundational information missing from the resume. Listen for a clear chronological narrative, specific roles, responsibilities, and how they align with backend engineering. Pay attention to any significant gaps or inconsistencies.",
+        "suggested_framework": "Chronological walk-through, followed by probing questions on specific roles using the STAR method for key achievements.",
+        "do_not": "Do not assume a lack of experience; provide a full opportunity for the candidate to articulate their background. Do not interrupt frequently or lead the candidate with specific technologies."
+      },
+      {
+        "question": "We don't see specific backend technologies, programming languages, or frameworks listed on your resume. For a Senior Backend Engineer role, what specific backend technologies, languages (e.g., Python, Java, Go), frameworks (e.g., Spring, Django, Node.js), and tools (e.g., Docker, Kubernetes, AWS/Azure/GCP) have you worked with, and to what depth?",
+        "source": "role-fit gap",
+        "severity": "high",
+        "likelihood": "high",
+        "coaching_note": "This question directly addresses the critical lack of technical detail. Probe for specific examples of how they used these technologies, the complexity of the problems solved, and their role in the implementation. Look for depth of understanding beyond surface-level familiarity.",
+        "suggested_framework": "Technical deep dive. Ask for specific projects where they applied these skills, challenges faced, and solutions implemented. Follow up with 'why' and 'how' questions.",
+        "do_not": "Do not accept generic answers like 'I'm proficient in many languages.' Do not list technologies for them to agree with; let them articulate their stack first. Avoid making assumptions about their technical capabilities based on the resume's incompleteness."
+      },
+      {
+        "question": "For a Senior Backend Engineer, demonstrating impact and ownership is crucial. Can you describe specific instances where you took significant ownership of a backend project or feature, and what measurable impact your contributions had?",
+        "source": "role-fit gap",
+        "severity": "high",
+        "likelihood": "high",
+        "coaching_note": "This question is vital for assessing senior-level capabilities. Look for clear examples where the candidate initiated, led, or significantly drove a backend initiative. Focus on quantifiable results, problem-solving, and their specific contributions versus general team efforts.",
+        "suggested_framework": "STAR method (Situation, Task, Action, Result). Encourage them to provide metrics or specific outcomes.",
+        "do_not": "Do not allow them to generalize about 'team efforts' without detailing their specific role and impact. Do not accept vague statements without concrete examples and measurable outcomes. Avoid leading questions that suggest desired answers."
+      }
+    ],
+    "telemetry": {
+      "request_id": "86651f6b-940a-4cb6-ac6e-d6e149edf053",
+      "pipeline_version": "2.0",
+      "total_duration_ms": 50906,
+      "step_durations": {
+        "ingest_extract_text": 0,
+        "safety_check": 0,
+        "canonicalize": 7845,
+        "extractors_parallel": 9342,
+        "alignment": 8385,
+        "scoring": 0,
+        "recommendations": 15499,
+        "interview_prep": 9833
+      },
+      "models_used": {
+        "canonicalizer": "gemini-2.5-flash",
+        "impact": "gemini-2.5-flash",
+        "ownership": "gemini-2.5-flash",
+        "skills": "gemini-2.5-flash",
+        "ats": "gemini-2.5-flash",
+        "red_flags": "gemini-2.5-flash",
+        "alignment": "gemini-2.5-flash",
+        "recommendations": "gemini-2.5-flash",
+        "interview_prep": "gemini-2.5-flash"
+      }
+    }
+  }
+}

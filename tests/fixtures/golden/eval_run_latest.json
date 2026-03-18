@@ -1,0 +1,138 @@
+{
+  "career_gap": {
+    "score": 70.37,
+    "tier": "competitive",
+    "confidence": 100.0,
+    "roles": 2,
+    "flags": [
+      "employment_gap:high",
+      "generic_language:low"
+    ],
+    "recs": [
+      "impact_quality",
+      "ats_compliance",
+      "red_flag_penalty",
+      "skills_relevance"
+    ],
+    "top_rec": "impact_quality",
+    "duration_ms": 56955
+  },
+  "job_hopping": {
+    "score": 47.24,
+    "tier": "needs-work",
+    "confidence": 100.0,
+    "roles": 4,
+    "flags": [
+      "frequent_hopping:high",
+      "generic_language:medium",
+      "generic_language:medium",
+      "generic_language:medium"
+    ],
+    "recs": [
+      "impact_quality",
+      "ownership",
+      "skills_relevance",
+      "narrative_coherence",
+      "red_flag_penalty"
+    ],
+    "top_rec": "impact_quality",
+    "duration_ms": 69630
+  },
+  "junior": {
+    "score": 63.29,
+    "tier": "competitive",
+    "confidence": 100.0,
+    "roles": 2,
+    "flags": [],
+    "recs": [
+      "ats_compliance",
+      "skills_relevance",
+      "impact_quality",
+      "impact_quality",
+      "narrative_coherence"
+    ],
+    "top_rec": "ats_compliance",
+    "duration_ms": 64882
+  },
+  "manager": {
+    "score": 80.26,
+    "tier": "strong",
+    "confidence": 100.0,
+    "roles": 3,
+    "flags": [],
+    "recs": [
+      "ats_compliance",
+      "skills_relevance",
+      "skills_relevance",
+      "narrative_coherence",
+      "impact_quality"
+    ],
+    "top_rec": "ats_compliance",
+    "duration_ms": 60791
+  },
+  "mid_level": {
+    "score": 74.67,
+    "tier": "competitive",
+    "confidence": 100.0,
+    "roles": 2,
+    "flags": [],
+    "recs": [
+      "narrative_coherence",
+      "ownership",
+      "skills_relevance",
+      "ats_compliance",
+      "ownership"
+    ],
+    "top_rec": "narrative_coherence",
+    "duration_ms": 61865
+  },
+  "overlapping_roles": {
+    "score": 77.51,
+    "tier": "competitive",
+    "confidence": 100.0,
+    "roles": 3,
+    "flags": [
+      "overlapping_employment:high"
+    ],
+    "recs": [
+      "ats_compliance",
+      "red_flag_penalty",
+      "skills_relevance",
+      "impact_quality",
+      "narrative_coherence"
+    ],
+    "top_rec": "ats_compliance",
+    "duration_ms": 56506
+  },
+  "senior": {
+    "score": 75.31,
+    "tier": "competitive",
+    "confidence": 100.0,
+    "roles": 3,
+    "flags": [],
+    "recs": [
+      "skills_relevance",
+      "ats_compliance",
+      "ats_compliance",
+      "narrative_coherence"
+    ],
+    "top_rec": "skills_relevance",
+    "duration_ms": 76270
+  },
+  "weak_formatting": {
+    "score": 38.25,
+    "tier": "major-gaps",
+    "confidence": 20.0,
+    "roles": 0,
+    "flags": [],
+    "recs": [
+      "ats_compliance",
+      "skills_relevance",
+      "ats_compliance",
+      "narrative_coherence",
+      "impact_quality"
+    ],
+    "top_rec": "ats_compliance",
+    "duration_ms": 53197
+  }
+}

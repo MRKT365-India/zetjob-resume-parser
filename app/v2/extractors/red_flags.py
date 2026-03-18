@@ -5,6 +5,21 @@ from ..prompts import RED_FLAG_DETECTOR_PROMPT
 from ..types import CanonicalResume, RedFlag, RedFlagSignal
 
 
+
+
+_FLAG_ALIASES = {
+    "frequent_hopping": "job_hopping",
+}
+
+
+def _normalize_flag_types(signal: RedFlagSignal) -> RedFlagSignal:
+    normalized: list[RedFlag] = []
+    for flag in signal.flags:
+        ftype = _FLAG_ALIASES.get(flag.type, flag.type)
+        normalized.append(RedFlag(type=ftype, severity=flag.severity, detail=flag.detail, location=flag.location))
+    return RedFlagSignal(flags=normalized)
+
+
 def _to_dt(ym: str | None) -> datetime | None:
     if not ym or len(ym) < 7:
         return None
@@ -67,7 +82,7 @@ async def extract_red_flags(canonical: CanonicalResume, model: str | None = None
     llm = await call_gemini(RED_FLAG_DETECTOR_PROMPT, str(payload), model=model or "gemini-2.5-flash")
     if isinstance(llm, dict):
         try:
-            return RedFlagSignal.model_validate(llm)
+            return _normalize_flag_types(RedFlagSignal.model_validate(llm))
         except Exception:
             pass
-    return _heuristic_red_flags(canonical)
+    return _normalize_flag_types(_heuristic_red_flags(canonical))
